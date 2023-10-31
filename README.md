@@ -1,39 +1,30 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Vedic Astrology
 
-Welcome,
+Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims to share more information about Vedic Astrology, the differences between Western and Vedic Astrology, answer any questions a possible client may have and entice people to book a consultation reading wih Elna.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+- **Navigation Bar**
+  - Positioned on top right of the pag next to the logo which ison the left of the page.
+  - The responsive navigation bar includes links to the Home page, Contact page, FAQs page and Gallery page and is fully responsive and identical on each page for easy of use.
+- **Footer**
+  - Set on a dark blue background, the footer includes the email address and contact number centered, with the social links on the bottom right.
+  - The footer remains the same on each page of the website.
+  - **The Landing Page (Home page)**
+  - Centered image of Jyotiosh and Vedic Astrology chart signs. With benefits on the left and outcomes on the right. This is to help build demand and highlight why the user would want to enquire for a reading.
+  - About Elna
+    - Photo of Elna positioned on the left hand side to build trust and approachibility.
+    - Discriptive write up of Elna's experience, how she starts with Ve3dic Astrology and her study experience.
+  - Elna Offers
+    - List of the services Elna offers with a "Book Now" button situation on the centered right handside.
+- **Contact page**
+  - Blue bar at the top of the page highlighting what the page content covers.
+  - Line on enquires not related to reading.
+  - Form box on left of the page to book a reading which includes name, mobile, email, desitred appointment date and message box.
+  - To the left included is a list of information that is needed for a reading.
+- **FAQs**
+  - Blue bar at the top of the page highlighting what the page content covers.
+  - Image of Elna and other students aligned to left og the page.
+  - FAQs listed on right of image.
+- **GALLERY**
+  - Gallery of images from Elna's travels to India.
