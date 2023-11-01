@@ -18,7 +18,6 @@ body {
 /* Header */
 header {
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 3rem;
     background-color: #fff9e3;
     padding: 0 1rem;
     position: fixed;
@@ -42,7 +41,7 @@ h1 {
 
 /* Nav */
 #menu {
-    font-size: 50%;
+    font-size: 125%;
     letter-spacing: 2px;
     color:darkslategrey;
 }
@@ -77,14 +76,21 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 5rem;
+}
+
+/* Sizing of logo */
+#logo {
+    font-size: 450%;
+    line-height: 150px;
+    margin: 0 0.5rem;
 }
 
 /* Main */
 main {
     background-color: #203046;
     flex: 10 auto;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 /* Section */
@@ -103,6 +109,7 @@ h2 {
   color: #c00000;
   font-family: 'Petrona', serif;
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -111,13 +118,13 @@ nav {
     position: relative;
     box-shadow: none;
     width: fit-content;
-    padding-right: 1rem;
+    padding-right: 3rem;
     }
 #menu{
     display: flex;
     }
 #menu > li {
-    padding-left: 1rem; 
+    padding-left: 5rem; 
     }
 .nav-toggle-label {
         display: none
