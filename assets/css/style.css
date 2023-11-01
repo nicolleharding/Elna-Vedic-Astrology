@@ -1,17 +1,105 @@
+/* Google font imports */
+  @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Hind+Madurai:wght@700&family=Petrona:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* General styles*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff9e3;
-  margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+/* generic project styles*/
+    color:darkslategray; 
+    font-family: 'Athiti',  sans-serif; 
+}
+/* Header */
+header {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 3rem;
+    background-color: #fff9e3;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+header a {
+    text-decoration: none;
 }
 
 h1 {
-  color: #c00000;
-  text-align: left;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 5rem;
-  margin-top: 0;
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
+    color:#c00000;
+}
+
+/* Nav */
+#nav-menu {
+    font-size: 75%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    color:darkslategrey;
+}
+
+#nav-menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid darkslategrey;
+}
+
+/* Navbar style with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #fff9e3;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px darkslategrey;
+    display: none;
+    top: 100%;
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main */
+main {
+    background-color: #203046;
+    flex: 10 auto;
+}
+
+/* Section */
+section {
+  background-color: #fff9e3;
+  margin: 0;
+  flex: 10 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #203046;
 }
 
 h2 {
   color: #c00000;
+  font-family: 'Petrona', serif;
 }
