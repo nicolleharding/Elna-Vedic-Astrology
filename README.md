@@ -4,9 +4,11 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 # Features
 
+## Existing Features
+
 - **Navigation Bar**
   - Positioned on top right of the pag next to the logo which ison the left of the page.
-  - The responsive navigation bar includes links to the Home page, Contact page, FAQs page and Gallery page and is fully responsive and identical on each page for easy of use.
+  - The responsive navigation bar includes links to the Home page, Contact page, FAQs page and is fully responsive and identical on each page for easy of use.
 - **Footer**
   - Set on a dark blue background, the footer includes the email address and contact number centered, with the social links on the bottom right.
   - The footer remains the same on each page of the website.
@@ -28,3 +30,10 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
   - FAQs listed on right of image.
 - **GALLERY**
   - Gallery of images from Elna's travels to India.
+
+## Features Left to Implement
+
+- Pay gateway to allow user to pay for reading.
+- Add a gallery for photos.
+
+# Testing
