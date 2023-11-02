@@ -39,6 +39,10 @@ Hero Image
 - Need to overlay Jyotish image on top of space image and center this. 
 - Column text 33%, center and add padding. 
 
+Section
+- Adding padding to the image.
+- Positioning the texton the right of the image. 
+  
 Footer
 - Increase Contact Details font weight. 
 - Responsiveness on footer has issue with logos. 
