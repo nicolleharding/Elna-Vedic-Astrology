@@ -97,10 +97,22 @@ main {
 footer {
     background-color: #203046;
     color: #ffffff;
-    font-size: or 75%;
+    font-size: 120%;
     text-align: center;
     padding: 20px 0;
     letter-spacing: 2px;
+}
+
+#social-logos {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-logos i {
+    font-size: 200%;
+    padding: 5%;
 }
 
 /* Media query: tablets and larger (768px and up) */
