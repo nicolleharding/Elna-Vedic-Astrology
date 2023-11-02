@@ -124,19 +124,6 @@ nav {
     }
 }
 
-/* Footer Images */
-#facebook {
-    max-width: 1.5%;
-    height:fit-content
-    padding: 2px;
-}
-
-#instagram {
-    max-width: 1.5%;
-    height:fit-content
-    padding: 2px;
-}
-
 /* Sizing of logo */
 #logo {
     font-size: 280%;
