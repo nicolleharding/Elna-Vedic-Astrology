@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 /* General styles*/
 body {
@@ -16,6 +17,19 @@ body {
     color:darkslategray; 
     font-family: 'Athiti',  sans-serif; 
 }
+
+h1 {
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#c00000;
+}
+
+h2, h3 {
+    color: #c00000;
+    font-family: 'Petrona', serif;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -23,7 +37,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px darkslategrey;
+    box-shadow: 0 1px 1px lightgray;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -33,18 +47,6 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-h1 {
-    font-family: 'Hind Madurai', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:#c00000;
-}
-
-h2 {
-    color: #c00000;
-    font-family: 'Petrona', serif;
-  }
 
 /* Nav */
 #menu {
@@ -88,10 +90,33 @@ nav {
 
 /* Main */
 main {
-    background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+/* Hero Section */
+#hero {
+    height: 300px;
+    width: 100%;
+    background: url("../images/home/outerspace.jpg") no-repeat center center/cover;
+}
+
+#cover-text-left {
+    background-color: rgba(255, 249, 277, .3);
+    color: #ffffff;
+    font-size: 130%;
+    list-style-type: none;
+    text-align: center left;
+}
+
+#cover-text-right {
+    background-color: rgba(255, 249, 277, .3);
+    color:#ffffff;
+    font-size: 130%;
+    list-style-type: none;
+    text-align: center right;
+}
+
 
 /* Footer */
 footer {
