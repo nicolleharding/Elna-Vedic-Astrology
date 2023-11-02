@@ -37,3 +37,7 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 - Add a gallery for photos.
 
 # Testing
+Footer
+- Make email clickable in the footer and FB and IG logos clickable. 
+- Increase Contact Details font weight. 
+- Responsiveness on footer has issue with logos. 

@@ -1,6 +1,7 @@
 /* Google font imports */
   @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Hind+Madurai:wght@700&family=Petrona:wght@500&display=swap');
 
+  /* Astrisk override to override all default styles */
 * {
     padding: 0;
     margin: 0;
@@ -11,14 +12,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-/* generic project styles*/
+/* Generic project styles*/
     color:darkslategray; 
     font-family: 'Athiti',  sans-serif; 
 }
 /* Header */
 header {
-    font-family: 'Hind Madurai', sans-serif;
-    background-color: #fff9e3;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -26,24 +26,31 @@ header {
     box-shadow: 0 2px 2px darkslategrey;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
   }
 
 header a {
     text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
     color:#c00000;
 }
 
+h2 {
+    color: #c00000;
+    font-family: 'Petrona', serif;
+  }
+
 /* Nav */
 #menu {
-    font-size: 125%;
-    letter-spacing: 2px;
-    color:darkslategrey;
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
 #menu > li {
@@ -57,7 +64,7 @@ h1 {
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #fff9e3;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -76,38 +83,24 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 5rem;
-}
-
-/* Sizing of logo */
-#logo {
-    font-size: 450%;
-    line-height: 150px;
-    margin: 0 0.5rem;
+    font-size: 2rem;
 }
 
 /* Main */
 main {
-    background-color: #203046;
-    flex: 10 auto;
-    margin-top: 150px;
-}
-
-/* Section */
-section {
-  background-color: #fff9e3;
-  margin: 0;
-  flex: 10 auto;
+    background-color: #ffffff;
+    flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
 footer {
     background-color: #203046;
-}
-
-h2 {
-  color: #c00000;
-  font-family: 'Petrona', serif;
+    color: #ffffff;
+    font-size: or 75%;
+    text-align: center;
+    padding: 20px 0;
+    letter-spacing: 2px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -118,15 +111,48 @@ nav {
     position: relative;
     box-shadow: none;
     width: fit-content;
-    padding-right: 3rem;
+    padding-right: 1rem;
     }
 #menu{
     display: flex;
     }
 #menu > li {
-    padding-left: 5rem; 
+    padding-left: 1rem; 
     }
 .nav-toggle-label {
         display: none
+    }
+}
+
+/* Footer Images */
+#facebook {
+    max-width: 1.5%;
+    height:fit-content
+    padding: 2px;
+}
+
+#instagram {
+    max-width: 1.5%;
+    height:fit-content
+    padding: 2px;
+}
+
+/* Sizing of logo */
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* Main Content*/
+main {
+    /*Puh main content down to accomodate larger header */
+    margin-top: 79px
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid darkslategrey;
     }
 }
