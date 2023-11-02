@@ -35,7 +35,10 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 - Add a gallery for photos of Elna's travel in India. 
 
 # Testing
+Hero Image
+- Need to overlay Jyotish image on top of space image and center this. 
+- Column text 33%, center and add padding. 
+
 Footer
-- Make email clickable in the footer and FB and IG logos clickable. 
 - Increase Contact Details font weight. 
 - Responsiveness on footer has issue with logos. 
