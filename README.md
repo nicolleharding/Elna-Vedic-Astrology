@@ -28,13 +28,11 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
   - Blue bar at the top of the page highlighting what the page content covers.
   - Image of Elna and other students aligned to left og the page.
   - FAQs listed on right of image.
-- **GALLERY**
-  - Gallery of images from Elna's travels to India.
 
 ## Features Left to Implement
 
 - Pay gateway to allow user to pay for reading.
-- Add a gallery for photos.
+- Add a gallery for photos of Elna's travel in India. 
 
 # Testing
 Footer

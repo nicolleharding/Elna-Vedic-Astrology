@@ -95,28 +95,17 @@ main {
 }
 
 /* Hero Section */
-#hero {
+#hero1 {
     height: 300px;
     width: 100%;
     background: url("../images/home/outerspace.jpg") no-repeat center center/cover;
+    z-index: 1;
 }
 
-#cover-text-left {
-    background-color: rgba(255, 249, 277, .3);
-    color: #ffffff;
-    font-size: 130%;
-    list-style-type: none;
-    text-align: center left;
+#hero2 {
+    background: url("../images/home/parasara_jyotish.png") no-repeat center center/contain;
+    z-index: 3;
 }
-
-#cover-text-right {
-    background-color: rgba(255, 249, 277, .3);
-    color:#ffffff;
-    font-size: 130%;
-    list-style-type: none;
-    text-align: center right;
-}
-
 
 /* Footer */
 footer {
