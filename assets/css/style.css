@@ -109,22 +109,15 @@ main {
     z-index: 2;
 }
 
+/* Reason To Care Page Section */
+
 .hero-content-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 300px;
-}
-
-.hero-content {
-    background-color: rgba(255, 249, 227, .5);
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: #d3d3d3;
+    color: #ffffff;
 }
 
 .hero-content li {
@@ -147,14 +140,29 @@ main {
 }
 
 #square-text1 {
-    text-align: center;
     font-size: 20px;
     margin-left: 10px;
     column-width: 66%;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
 }
 
 #square-text1-list {
     list-style-type: none;
+}
+
+.button-label {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #c00000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 /* Page section FAQs*/
