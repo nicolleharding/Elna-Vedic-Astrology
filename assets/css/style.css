@@ -53,6 +53,7 @@ header a {
 
 #menu > li {
     margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
 .active {
@@ -116,7 +117,7 @@ main {
 }
 
 .hero-content {
-    background-color: rgba(255, 249, 227, .3);
+    background-color: rgba(255, 249, 227, .5);
     width: 200px;
     height: 200px;
     display: flex;
@@ -128,25 +129,23 @@ main {
 
 .hero-content li {
     list-style-type: none;
+    color: #ffffff;
 }
 
 /* Section*/
 
-#elna-head-shot {
-    height: 75vw;
-    background: url(../images/home/Picture\ of\ Elna.jpg) no-repeat top center / cover;
-    max-width: 20%;
-    max-height: 550px;
-    border-radius: 15%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+.square-image {
+    float: left;
+    margin: 10px;
+    border: 5px solid #203046;
+    width: 20vw;
 }
 
-#elna-head-shot-image {
-    display: flex;
-    align-items: left;
-    justify-content: left;
+.square-text: {
+    text-align: justify; 
+    font-size: 20px;
+    width: 80vw;
+    padding-left: 20px;
 }
 
 /* Footer */
