@@ -19,7 +19,7 @@ body {
     font-family: 'Athiti',  sans-serif; 
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -57,7 +57,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid darkslategrey
+    border-bottom: 1px solid #2f4f4f
 }
 
 /* Navbar style with dropdown toggle */
@@ -116,13 +116,15 @@ main {
     justify-content: space-around;
     width: auto;
     height: auto;
-    background-color: #d3d3d3;
-    color: #ffffff;
+    background-color: #FFF9E3;
 }
 
 .hero-content li {
     list-style-type: none;
-    color: #ffffff;
+    color: #2f4f4f;
+    font-size: medium;
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Page section container*/
@@ -170,7 +172,7 @@ main {
 #square-image2 { 
     margin: 10px;
     border: 1px solid #d3d3d3;
-    max-width: 100%;
+    background-size: 15em;
 }
 
 #square-text2 {
@@ -219,9 +221,8 @@ nav {
     }
 .nav-toggle-label {
         display: none
-    }
 }
-
+}
 /* Sizing of logo */
 #logo {
     font-size: 280%;
