@@ -6,8 +6,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
+
 /* General styles*/
 body {
     min-height: 100vh;
@@ -132,24 +132,20 @@ main {
     color: #ffffff;
 }
 
-/* Section*/
+/* Section Index Page*/
 
-.square-image {
+.square-image-index: {
     float: left;
     margin: 10px;
-    border: 5px solid #203046;
-    width: 20vw;
 }
 
-.square-text: {
+.square-text-index: {
     text-align: justify; 
     font-size: 20px;
-    width: 80vw;
+    width: 80vw
 }
 
-.about-elna-content {
-    padding: 20px;
-}
+/* Section FAQS Page*/
 
 /* Footer */
 footer {
