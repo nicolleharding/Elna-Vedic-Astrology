@@ -145,7 +145,10 @@ main {
     text-align: justify; 
     font-size: 20px;
     width: 80vw;
-    padding-left: 20px;
+}
+
+.about-elna-content {
+    padding: 20px;
 }
 
 /* Footer */

@@ -33,16 +33,21 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 - Pay gateway to allow user to pay for reading.
 - Add a gallery for photos of Elna's travel in India. 
+- Add page that ncludes charts of famout people for interest and also to see output. 
 
 # Testing
 Hero Image
-- Need to overlay Jyotish image on top of space image and center this. 
-- Column text 33%, center and add padding. 
+- Need to overlay Jyotish image on top of space image and center this. - done
+- Column text 33%, center and add padding. - done
+- Not sure obout the copy on the Hero image. 
 
 Section
-- Adding padding to the image.
-- Positioning the texton the right of the image. 
+- Adding padding to the image. - done
+- Positioning the texton the right of the image. - done
+- Need to figure out padding of text. 
+- Need to improve placement and colour of button. 
   
 Footer
 - Increase Contact Details font weight. 
 - Responsiveness on footer has issue with logos. 
+- Size of footer seems to large. 
