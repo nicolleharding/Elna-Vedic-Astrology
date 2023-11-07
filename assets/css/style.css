@@ -13,27 +13,32 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     /* Generic project styles*/
     color:darkslategray; 
     font-family: 'Athiti',  sans-serif; 
 }
 
-h1, h2 {
+h1 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#c00000;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #542875;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 1px hsl(0, 0%, 83%);
+    box-shadow: 0 1px 1px #542875;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -41,7 +46,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
 }
 
 /* Nav */
@@ -57,13 +62,13 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #2f4f4f
+    border-bottom: 1px solid #ffffff
 }
 
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #542875;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -88,83 +93,74 @@ nav {
 /* Main */
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 45px;
 }
 
 /* Hero Section */
+
 #hero1 {
-    height: 300px;
+    height: 600px;
     width: 100%;
     position: relative;
-    background: url("../images/home/outerspace.jpg") no-repeat center center / cover;
-    z-index: 1;
+    background: url("../images/home/iStock-643293188.jpg") no-repeat center center / cover;
 }
 
-#hero2 {
-    height: 300px;
-    width: auto;
-    position: absolute;
-    top: 0;
-    left: calc(50vw - 150px);
-    z-index: 2;
+.text-hero {
+    flex: 50%;
+    padding-top: 100px;
+    padding-left: 200px;
+    height: 600px;
+    color: #ffffff;
 }
 
-/* Reason To Care Page Section */
-
-.hero-content-container {
+.container-hero {
     display: flex;
-    justify-content: space-around;
-    width: auto;
-    height: auto;
-    background-color: #FFF9E3;
 }
 
-.hero-content li {
-    list-style-type: none;
-    color: #2f4f4f;
-    font-size: medium;
-    font-family: 'Hind Madurai', sans-serif;
+.text-hero-heading {
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
-/* Page section container*/
-
-#square-container {
-    padding: 20px;
-    display: flex;
-}
-
-/* Page section Index*/
-
-#square-image1 { 
-    margin: 10px;
-    border: 1px solid #d3d3d3;
-}
-
-#square-text1 {
-    font-size: 20px;
-    margin-left: 10px;
-    column-width: 66%;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    text-align: center;
-}
-
-#square-text1-list {
-    list-style-type: none;
+.text-hero-copy li {
+    font-size: 1rem;
 }
 
 .button-label {
     margin-top: 20px;
     margin-left: 0.75rem;
     padding: 0.75rem;
-    background-color: #c00000;
+    background-color: #542875;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 25px;
     font-family: 'Hind Madurai', sans-serif;
+}
+/* Page section Index*/
+
+.elna-column {
+    flex: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: auto;
+    color: #ffffff;
+}
+
+.elna-container {
+    display: flex;
+    margin: 5px;
+}
+
+.elna-image {
+    border: 20px solid #ffffff;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.elna-text {
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 /* Page section FAQs*/

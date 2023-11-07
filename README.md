@@ -7,18 +7,17 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 ## Existing Features
 
 - **Navigation Bar**
-  - Positioned on top right of the pag next to the logo which ison the left of the page.
-  - The responsive navigation bar includes links to the Home page, Contact page, FAQs page and is fully responsive and identical on each page for easy of use.
+  - Positioned on top right of the page next to the logo which ison the left of the page.
+  - The responsive navigation bar includes links to the Home page, FAQs page and Book page which is fully responsive and identical on each page for easy of use.
 - **Footer**
-  - Set on a dark blue background, the footer includes the email address and contact number centered, with the social links on the bottom right.
+  - Set on a dark blue background, the footer includes the email address and the social links centered on the page.
   - The footer remains the same on each page of the website.
   - **The Landing Page (Home page)**
-  - Centered image of Jyotiosh and Vedic Astrology chart signs. With benefits on the left and outcomes on the right. This is to help build demand and highlight why the user would want to enquire for a reading.
+  - Cover hero image of moon in night sky, with text that highlights services Elna offers and gives the user a bit more info on what Vedic Astrology is. Included is a button to help users navigate to the Book page. This is to help build demand and highlight why the user would want to enquire for a reading.
   - About Elna
     - Photo of Elna positioned on the left hand side to build trust and approachibility.
-    - Discriptive write up of Elna's experience, how she starts with Ve3dic Astrology and her study experience.
-  - Elna Offers
-    - List of the services Elna offers with a "Book Now" button situation on the centered right handside.
+    - Discriptive write up of Elna's experience, how she starts with Vedic Astrology and her study experience.
+    - Included is a Book Now button to navigate to the Bootk page. 
 - **Contact page**
   - Blue bar at the top of the page highlighting what the page content covers.
   - Line on enquires not related to reading.
