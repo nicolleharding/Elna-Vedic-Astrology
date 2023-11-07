@@ -32,7 +32,8 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 - Pay gateway to allow user to pay for reading.
 - Add a gallery for photos of Elna's travel in India. 
-- Add page that ncludes charts of famout people for interest and also to see output. 
+- Add page that includes charts of famout people for interest and also to see output. 
+- Convert Faqs to a table which has dropdowns instead of all the copy visible. 
 
 # Testing
 Hero Image

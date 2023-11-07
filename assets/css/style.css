@@ -208,9 +208,15 @@ main {
     text-transform: uppercase;
 }
 
-.faqs-text p {
-    color: #2f4f4f;
+#faqs-question {
+    color:#542875;
 }
+
+#faqs-answer {
+    padding-left: 5%;
+}
+
+
 /* Footer */
 
 footer {
