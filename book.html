@@ -1,48 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <!--Meta tags for search engines-->
-        <meta name="description" content="Elna Vedic Astrology. Vedic Astrology site offering virtual and inperson readings, guest lectures and beginners courses">
-        <meta name"keywords" content="vedic, vedic astrology, astrology, jyotish, ayurvedic, ayurvedic health care, vedic astrologer, astrologer">
-        <!--Titel-->
-        <title>Elna Vedic Astrology</title>
-        <!--Favicon-->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <!--Style CSS-->
-        <link rel="stylesheet" href="assets/css/style.css"/>
-      </head>
-      <body>
-        <!--Header-->
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Elna Vedic Astrology</h1>
-            </a>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
-        <!--Nav-->
-        <nav>
-            <ul id="menu" style="list-style-type: none;">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="faqs.html">Faqs</a></li>
-                <li><a href="book.html" class="active">Book</a></li>
-            </ul>
-        </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Meta tags for search engines-->
+    <meta name="description" content="Elna Vedic Astrology. Vedic Astrology site offering virtual and inperson readings, guest lectures and beginners courses">
+    <meta name"keywords" content="vedic, vedic astrology, astrology, jyotish, ayurvedic, ayurvedic health care, vedic astrologer, astrologer">
+    <!--Titel-->
+    <title>Elna Vedic Astrology</title>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!--Style CSS-->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Elna Vedic</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
+    <!--Nav-->
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faqs.html" >Faqs</a></li>
+            <li><a href="book.html" class="active">Book</a></li>
+        </ul>
+    </nav>
+    </header>
     <!--Main-->
     <main>
-        <h2>Contact</h2>
-            <p>For enquires related to guest lectures and courses please email elnamck@gmail.com.</p>
-        <h3>What You Will Need to Send for a Reading</h3>
-            <ul>
-                <li>Your date of birth</li>
-                <li>Your location of birth (city / long and lat)</li>
-                <li>Your time of birth (to the minute)</li>
-            </ul>
+        <section>
+            <div id="book-now-container">
+                <h2 id="book-now">Book Now</h2>
+                    <p>For enquires related to guest lectures and courses please email elnamck@gmail.com.</p>
+                    <br>
+                    <h2>What You Will Need to Share for a Reading</h2>
+                        <ol>
+                            <li>1. Your date of birth</li>
+                            <li>2. Your location of birth (city / long and lat)</li>
+                            <li>3. Your time of birth (to the minute)</li>
+                        </ol>
+            </div>
+            <form action="mailto:elnamck@gmail.com" method="POST">
+                <fieldset>
+                    <legend>Your details</legend>
+                        <div class="flex gap-20">
+                        <div>
+                            <label for="name-field" class="block-label">Name</label>
+                            <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                        </div>
+                        <div>
+                            <label for="email-field" class="block-label">Email</label>
+                            <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                        </div>
+                        <div>
+                            <label for="mobile-field" class="block-label">Mobile Number</label>
+                        <input id="mobile-field" type=“phone" name=“area_code" placeholder="Country Code" required>
+                        <input id="mobile-field" type=“phone" name=“mobile_number" placeholder="Your mobile" required>
+                    </div>
+                            <label for=“message" class="block-label”>Other information?</label>
+                            <br>
+                            <textarea id=“message" rows="4" cols="87" name=“message"></textarea>
+                </fieldset>
+                <br>
+                <input type="submit" class="block-label" value="Book">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
     </main>
     <!--Footer-->
     <footer>

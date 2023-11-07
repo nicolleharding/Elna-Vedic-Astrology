@@ -26,9 +26,10 @@ h1 {
 }
 
 h2 {
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Athiti',  sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #542875;
 }
 
 /* Header */
@@ -119,6 +120,8 @@ main {
 .text-hero-heading {
     text-transform: uppercase;
     font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 .text-hero-copy li {
@@ -215,6 +218,13 @@ main {
 #faqs-answer {
     padding-left: 5%;
 }
+
+/* Page section Book*/
+
+#book-now-container {
+    text-align: center;
+}
+
 
 
 /* Footer */
