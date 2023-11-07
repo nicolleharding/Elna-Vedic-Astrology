@@ -176,7 +176,41 @@ main {
 
 /* Page section FAQs*/
 
+.faqs-container {
+    display: flex;
+    margin: 5px;
+}
 
+.faqs-column1 {
+    flex: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: auto;
+    color: #2f4f4f;
+}
+
+.faqs-column2 {
+    flex: 70%;
+    padding-top: 30px;
+    padding-left: 10px;
+    height: auto;
+    color: #2f4f4f;
+}
+
+.faqs-image {
+    border: 20px solid #ffffff;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.faqs-text h2 {
+    color: #542875;
+    text-transform: uppercase;
+}
+
+.faqs-text p {
+    color: #2f4f4f;
+}
 /* Footer */
 
 footer {
