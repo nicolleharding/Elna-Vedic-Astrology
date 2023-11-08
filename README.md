@@ -10,21 +10,31 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 - Positioned on top right of the page next to the logo which is on the left of the page and the nav bar on the right. The nav bar item selected is underline when on the page, and moves to the next page as the user hovers on that nav selection.
 - The responsive navigation bar includes links to the Home page, FAQs page and Book page which is fully responsive and identical on each page for easy of use.
-  **Footer**
+
+**Footer**
+
 - Set on a blue background, the footer includes the email address and the social links centered on the page. The links are clickable and navigate to the desired destination in a new tab, with the email opening up a new email.
 - The footer remains the same on each page of the website.
-  **The Landing Page (Home page)**
+
+**The Landing Page (Home page)**
+
 - Cover hero image of moon in night sky, with text that highlights services Elna offers and gives the user more information on what Vedic Astrology is. Included is a button to help users navigate to the Book page. This is to increase awareness of call to action and highlight why the user would want to enquire for a consultation.
 - About Elna - Photo of Elna positioned on the left hand side to build trust and approachibility with the familiarity of a photo. - The section includes a discriptive write up of Elna's experience, how she started with Vedic Astrology and her study experience. - Many people may not know what Vedic Astrology is. To highlight to the user why they would want Vedic Astrology over Western Astrology, I have included a Why Vedic Astrology section on this page.
-  **FAQs**
+
+**FAQs**
+
 - Centered at the top of the page is an accordian FAQs section. The questions are designed to be clickable exposing the answers. A hand appears on the scroller to ensure the user knows to click on the queston box. This creates a better user experience as it is more visually appealing.
 - At the bottom of the FAQs page is an image of the zodiac on a black star sky. Overlayed on this image is the upcoming festivals and fasts for the next quarter.
-  **Book**
+
+**Book**
+
 - Set on a background of stars in the galaxy, the "Book a Consultation" form includes collection fields of name, email, contact number, consult date and a message box. The email box is set to only accept email details. All boxes are required other than the message box.
 - I have intentionally left off the price of a consulation as this is variable depending on country and the clients (Elna) preference.
 - Under the boxes is a "Book Now" button, which sends the data collected directly to Elna via email.
 - Included in the form is what a user will need to share for a consultation and what to expect. The for main points of the "What to Expect" content are in bold and purple to visually catch the users eye and highlight these points.
-  **Font and Color Pallet**
+
+**Font and Color Pallet**
+
 - Logo (h1) Font:
   - 'Hind Madurai', sans-seri
 - Hero Font (h2):
