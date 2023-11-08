@@ -48,7 +48,7 @@ Color Pallet:
 - #2f4f4f (darkslategrey)
 - #ffffff (white)
 - #542875 (purple)
-  -
+- 
 
 ## Features Left to Implement
 
@@ -91,3 +91,5 @@ Book Page : Section
 - Add CSS to form layout. 
 - Make form submit. 
 - Add clickable email. 
+- Make sumit and reset buttons the same size and next to each other. 
+- Fix background image. 

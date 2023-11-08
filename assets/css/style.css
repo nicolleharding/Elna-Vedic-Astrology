@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles*/
     color:darkslategray; 
-    font-family: 'Athiti',  sans-serif; 
+    font-family: 'Athiti', sans-serif; 
 }
 
 h1 {
@@ -26,10 +26,10 @@ h1 {
 }
 
 h2 {
-    font-family: 'Athiti',  sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #542875;
+    color: #303A97;
 }
 
 .bold {
@@ -163,7 +163,6 @@ main {
     padding-top: 30px;
     padding-left: 10px;
     height: auto;
-    color: #ffffff;
 }
 
 .elna-image {
@@ -173,8 +172,8 @@ main {
 }
 
 .about-elna h2 {
-    color: #542875;
     text-transform: uppercase;
+    color: #303A97;
 }
 
 .about-elna p {
@@ -211,12 +210,13 @@ main {
 }
 
 .faqs-text h2 {
-    color: #542875;
+    color: #303A97;
     text-transform: uppercase;
 }
 
 #faqs-question {
     color:#542875;
+    font-family: 'Athiti', sans-serif; 
 }
 
 #faqs-answer {
@@ -225,20 +225,24 @@ main {
 
 /* Page section Book*/
 
-#book-now-container {
+.background-book-page {
+    background: url(../images/book/outerspace.jpg) no-repeat center / cover;
+}
+
+#book-now {
     text-align: center;
 }
 
-.book-now-section {
-    background-color: #lightgrey;
+#book-now-reading {
+    padding-left: 20px;
 }
 
 form {
-    width: 700px;
+    width: 1000px;
     padding: 25px;
     border-radius: 8px;
     margin: 25px auto;
-    background-color: white;
+    background-color: #ffffff;
     }
 
 fieldset {
@@ -265,6 +269,8 @@ input[type=tel] {
 
 .block-label {
 	display: block;
+    color:#542875;
+    font-family: 'Athiti', sans-serif; 
 }
 
 input[type=submit] {
@@ -277,22 +283,31 @@ input[type=submit] {
 	border-radius: 5px;
 }
 
+input[type=reset] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #303A97;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
 label {
     margin: 10px 15px 5px 0;
 }
 
 legend {
-    font-family: 'Athiti',  sans-serif;
-    font-size: 2em;
+    font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #542875;
+    color: #303A97;
 }
 
 /* Footer */
 
 footer {
-    background-color: #203046;
+    background-color: #303A97;
     color: #ffffff;
     font-size: 120%;
     text-align: center;
