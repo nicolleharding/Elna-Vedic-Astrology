@@ -16,6 +16,7 @@ body {
     /* Generic project styles*/
     color: darkslategray;
     font-family: 'Athiti', sans-serif;
+    background-color: #f8f8ff;
 }
 
 h1 {
@@ -167,9 +168,9 @@ main {
 }
 
 .elna-image {
-    border: 20px solid #ffffff;
     max-width: 100%;
     max-height: auto;
+    padding: 25px;
 }
 
 .about-elna h2 {
@@ -184,7 +185,7 @@ main {
 /* Page section FAQs*/
 
 .faqs-section {
-    background-color: lightgrey;
+    background-color: #f8f8ff;
     padding-top: 25px;
 }
 

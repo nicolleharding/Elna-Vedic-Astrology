@@ -49,6 +49,7 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 - #2f4f4f (darkslategrey)
 - #ffffff (white)
 - #542875 (purple)
+- #f8f8ff (ghostwhite)
 
 ## Checklist of Things to Fix
 
