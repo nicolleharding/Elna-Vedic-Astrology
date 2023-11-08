@@ -151,3 +151,5 @@ The images used for the gallery page were taken from this other open source site
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 https://elementor.com/ 
 <https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
+<https://www.istockphoto.com/
+<https://ide.geeksforgeeks.org/online-html-editor/210fd03c-8cf7-462a-8981-1c80740d1f6f>

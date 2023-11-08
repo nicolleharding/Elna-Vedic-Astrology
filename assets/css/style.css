@@ -190,7 +190,7 @@ main {
 }
 
 .faqs-style {
-    color: #542875;
+    color: #303A97;
     text-align: center;
 }
 
@@ -235,6 +235,37 @@ main {
 
 .accordion.active .accordion__answer {
     display: block;
+}
+
+/* Faqs Festivals and Fasts Section */
+
+#festivals_fasts {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#times {
+    background: url('../images/faqs/zodiac_footer.jpg') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: auto;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
 }
 
 /* Page section Book*/
