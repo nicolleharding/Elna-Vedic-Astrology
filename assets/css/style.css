@@ -32,6 +32,10 @@ h2 {
     color: #542875;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Header */
 header {
     background-color: #542875;
@@ -225,7 +229,65 @@ main {
     text-align: center;
 }
 
+.book-now-section {
+    background-color: #lightgrey;
+}
 
+form {
+    width: 700px;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 25px auto;
+    background-color: white;
+    }
+
+fieldset {
+	display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border: none;
+	margin-top: 20px;
+}
+
+input[type=text]
+input[type=email]
+input[type=tel] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.block-label {
+	display: block;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #542875;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+legend {
+    font-family: 'Athiti',  sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #542875;
+}
 
 /* Footer */
 
@@ -234,7 +296,6 @@ footer {
     color: #ffffff;
     font-size: 120%;
     text-align: center;
-    padding: 10px 0;
     letter-spacing: 2px;
 }
 

@@ -28,6 +28,28 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
   - Image of Elna and other students aligned to left og the page.
   - FAQs listed on right of image.
 
+- **Book**
+- Top of the page has email for those that want to contact Elna directly. 
+- Included is what is needed to supply for a reading. 
+- Followed by a contact form to enquire about a reading, which includes the name, email and telephone field and a field to add a message. This form is emailed directly to Elna. 
+
+- **Font and Color Pallet**
+- Logo (h1) Font:
+  - Hind Madurai, sans-seri
+- Hero Font (h2): 
+  - Hind Madurai, sans-serif
+- h2 Body Font:
+  - Athiti,  sans-serif
+- Body Font:
+  - Athiti,  sans-serif
+- Button Font: 
+  - Hind Madurai, sans-serif
+Color Pallet:
+- #2f4f4f (darkslategrey)
+- #ffffff (white)
+- #542875 (purple)
+  -
+
 ## Features Left to Implement
 
 - Pay gateway to allow user to pay for reading.
@@ -52,6 +74,7 @@ Index Page : Hero Image
 - Add interesting layout for the bullets on the hero image.  
 - Need to improve placement and colour of button. 
 - Make button navigate to Book page. 
+- Need to get rid of white line under nav bar. 
 
 Index Page : Section
 - Adding padding to the image. - done
@@ -67,3 +90,4 @@ Book Page : Section
 - Layout is boring need to look at imagery. 
 - Add CSS to form layout. 
 - Make form submit. 
+- Add clickable email. 
