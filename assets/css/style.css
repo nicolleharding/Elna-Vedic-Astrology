@@ -1,7 +1,7 @@
 /* Google font imports */
-  @import url('https://fonts.googleapis.com/css2?family=Athiti&family=Hind+Madurai:wght@700&family=Petrona:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti&family=Hind+Madurai:wght@700&family=Petrona:wght@500&display=swap');
 
-  /* Astrisk override to override all default styles */
+/* Astrisk override to override all default styles */
 * {
     padding: 0;
     margin: 0;
@@ -14,8 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color:darkslategray; 
-    font-family: 'Athiti', sans-serif; 
+    color: darkslategray;
+    font-family: 'Athiti', sans-serif;
 }
 
 h1 {
@@ -47,7 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-  }
+}
 
 header a {
     text-decoration: none;
@@ -61,7 +61,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
     text-transform: uppercase;
 }
@@ -143,6 +143,7 @@ main {
     font-size: 25px;
     font-family: 'Hind Madurai', sans-serif;
 }
+
 /* Page section Index*/
 
 .elna-container {
@@ -215,8 +216,8 @@ main {
 }
 
 #faqs-question {
-    color:#542875;
-    font-family: 'Athiti', sans-serif; 
+    color: #542875;
+    font-family: 'Athiti', sans-serif;
 }
 
 #faqs-answer {
@@ -245,12 +246,13 @@ form {
     width: 1000px;
     padding: 25px;
     border-radius: 8px;
-    margin: 25px auto;
+    margin-top: 25px;
     background-color: #ffffff;
-    }
+    margin: auto;
+}
 
 fieldset {
-	display: block;
+    display: block;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
     padding-block-start: 0.35em;
@@ -259,12 +261,10 @@ fieldset {
     padding-block-end: 0.625em;
     min-inline-size: min-content;
     border: none;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
-input[type=text]
-input[type=email]
-input[type=tel] {
+input[type=text] input[type=email] input[type=tel] {
     height: 30px;
     width: 90%;
     padding-left: 10px;
@@ -272,19 +272,19 @@ input[type=tel] {
 }
 
 .block-label {
-	display: block;
-    color:#542875;
-    font-family: 'Athiti', sans-serif; 
+    display: block;
+    color: #542875;
+    font-family: 'Athiti', sans-serif;
 }
 
 input[type=submit] {
-	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: #542875;
-	color: white;
-	border: none;
-	border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: #542875;
+    color: white;
+    border: none;
+    border-radius: 5px;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 25px;
 }
@@ -319,7 +319,10 @@ footer {
 }
 
 #social-logos {
-    padding: 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -332,27 +335,33 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-#menu{
-    display: flex;
+
+    #menu {
+        display: flex;
     }
-#menu > li {
-    padding-left: 1rem; 
+
+    #menu>li {
+        padding-left: 1rem;
     }
-.nav-toggle-label {
+
+    .nav-toggle-label {
         display: none
+    }
+
+    #hero1 {
+        display: flex;
+    }
 }
-#hero1 {
-    display: flex;
-}
-}
+
 /* Sizing of logo */
 #logo {
     font-size: 280%;
@@ -368,7 +377,7 @@ main {
 
 /* Large devices (large desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
 }
