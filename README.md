@@ -43,6 +43,8 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 ## Checklist of Things to Fix
 
+Need to make everything responsive.
+
 **Navigation Bar**
 
 - Change burger image to white. - done
