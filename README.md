@@ -6,35 +6,25 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 ## Existing Features
 
-- **Navigation Bar**
-  - Positioned on top right of the page next to the logo which ison the left of the page.
-  - The responsive navigation bar includes links to the Home page, FAQs page and Book page which is fully responsive and identical on each page for easy of use.
-- **Footer**
-  - Set on a dark blue background, the footer includes the email address and the social links centered on the page.
-  - The footer remains the same on each page of the website.
-  - **The Landing Page (Home page)**
-  - Cover hero image of moon in night sky, with text that highlights services Elna offers and gives the user a bit more info on what Vedic Astrology is. Included is a button to help users navigate to the Book page. This is to help build demand and highlight why the user would want to enquire for a reading.
-  - About Elna
-    - Photo of Elna positioned on the left hand side to build trust and approachibility.
-    - Discriptive write up of Elna's experience, how she starts with Vedic Astrology and her study experience.
-    - Included is a Book Now button to navigate to the Bootk page.
-- **Contact page**
-  - Blue bar at the top of the page highlighting what the page content covers.
-  - Line on enquires not related to reading.
-  - Form box on left of the page to book a reading which includes name, mobile, email, desitred appointment date and message box.
-  - To the left included is a list of information that is needed for a reading.
-- **FAQs**
+**Navigation Bar**
 
-  - Blue bar at the top of the page highlighting what the page content covers.
-  - Image of Elna and other students aligned to left og the page.
-  - FAQs listed on right of image.
-
-- **Book**
-- Top of the page has email for those that want to contact Elna directly.
-- Included is what is needed to supply for a reading.
-- Followed by a contact form to enquire about a reading, which includes the name, email and telephone field and a field to add a message. This form is emailed directly to Elna.
-
-- **Font and Color Pallet**
+- Positioned on top right of the page next to the logo which is on the left of the page and the nav bar on the right. The nav bar item selected is underline when on the page, and moves to the next page as the user hovers on that nav selection.
+- The responsive navigation bar includes links to the Home page, FAQs page and Book page which is fully responsive and identical on each page for easy of use.
+  **Footer**
+- Set on a blue background, the footer includes the email address and the social links centered on the page. The links are clickable and navigate to the desired destination in a new tab, with the email opening up a new email.
+- The footer remains the same on each page of the website.
+  **The Landing Page (Home page)**
+- Cover hero image of moon in night sky, with text that highlights services Elna offers and gives the user more information on what Vedic Astrology is. Included is a button to help users navigate to the Book page. This is to increase awareness of call to action and highlight why the user would want to enquire for a consultation.
+- About Elna - Photo of Elna positioned on the left hand side to build trust and approachibility with the familiarity of a photo. - The section includes a discriptive write up of Elna's experience, how she started with Vedic Astrology and her study experience. - Many people may not know what Vedic Astrology is. To highlight to the user why they would want Vedic Astrology over Western Astrology, I have included a Why Vedic Astrology section on this page.
+  **FAQs**
+- Centered at the top of the page is an accordian FAQs section. The questions are designed to be clickable exposing the answers. A hand appears on the scroller to ensure the user knows to click on the queston box. This creates a better user experience as it is more visually appealing.
+- At the bottom of the FAQs page is an image of the zodiac on a black star sky. Overlayed on this image is the upcoming festivals and fasts for the next quarter.
+  **Book**
+- Set on a background of stars in the galaxy, the "Book a Consultation" form includes collection fields of name, email, contact number, consult date and a message box. The email box is set to only accept email details. All boxes are required other than the message box.
+- I have intentionally left off the price of a consulation as this is variable depending on country and the clients (Elna) preference.
+- Under the boxes is a "Book Now" button, which sends the data collected directly to Elna via email.
+- Included in the form is what a user will need to share for a consultation and what to expect. The for main points of the "What to Expect" content are in bold and purple to visually catch the users eye and highlight these points.
+  **Font and Color Pallet**
 - Logo (h1) Font:
   - 'Hind Madurai', sans-seri
 - Hero Font (h2):
@@ -45,77 +35,84 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
   - 'Athiti', sans-serif
 - Button Font:
   - Hind Madurai, sans-serif
-    Color Pallet:
-- #2f4f4f (darkslategrey)
-- #ffffff (white)
-- #542875 (purple)
-- #f8f8ff (ghostwhite)
+- Color Pallet:
+  - #2f4f4f (darkslategrey)
+  - #ffffff (white)
+  - #542875 (purple)
+  - #f8f8ff (ghostwhite)
 
 ## Checklist of Things to Fix
 
-Nav
+**Navigation Bar**
 
 - Change burger image to white. - done
 
-Footer
+**Footer**
 
 - Increase Contact Details font weight.- done
 - Responsiveness on footer has issue with logos. - done
 - Size of footer seems to high. - done
 - Change FB and IG destination URL's to actual accounts. - done
 
-Index Page : Hero Image
+**Index Page : Hero Image**
 
-- Column text 33%, center and add padding. - done
-- Not sure obout the copy on the Hero image. - done
-- Add interesting layout for the bullets on the hero image.
 - Need to improve placement and colour of button.
 - Make button navigate to Book page.
+- Column text, center and add padding. - done
+- Not sure obout the copy on the Hero image. - done
+- Add interesting layout for the bullets on the hero image.
 - Need to get rid of white line under nav bar.- done
 
-Index Page : Section
+**Index Page : Section**
 
+- Look at the head shot when responsive as it's tiny.
 - Adding padding to the image. - done
 - Positioning the texton the right of the image. - done
 - Need to figure out padding of text. - done
-- Look at the head shot when responsive as it's tiny.
 
-FAQs Page : Section
+**FAQs Page : Section**
 
-- Layout seems poor.
-- Convert Faqs to a table which has dropdowns instead of all the copy visible.
+- Edit FAQs pay layout as it looks poor. - done
+- Convert Faqs to a table which has dropdowns instead of all the copy visible.- done
 
-Book Page : Section
+**Book Page : Section**
 
-- Layout is boring need to look at imagery.
-- Add CSS to form layout.
 - Make form submit.
-- Add clickable email.
-- Make sumit and reset buttons the same size and next to each other.
+- Change size of submit button.
+- Layout is boring need to look at imagery. - done
+- Add CSS to form layout. - done
 - Fix background image. - done
 
 ## Features Left to Implement
 
-- Pay gateway to allow user to pay for reading.
+- Pay gateway to allow user to pay for consulation.
 - Animate hero image.
 - Add a gallery for photos of Elna's travel in India.
-- Add page that includes charts of famout people for interest and also to see output.
+- Add page that includes charts of famous people for interest and also to see output.
+- Add an animated scroller to the Festivals and Fasts that allows me to inlcude all 12 months.
+- Add more content on zodiac and perhaps some animation to explore this.
 
 # Testing
 
-Navigation Bar
+**Navigation Bar**
 
 - Burger image is correct color and is responsive.
 - On smaller screen when clicked on nav drops down when burger is clicked on.
 - Header text and background is responsive.
 
-Footer
+**Footer**
 
 - Tested link to social platforms and like to Elna's pages. Opens in a new tab as intended.
 - Tested link to email, opens email to Elna. Opens in a new tab as intended.
 - Footer size is responsive.
 
-Index Page : Hero Image
+**Index Page : Hero Image**
+
+**Index Page : Section**
+
+**FAQs Page : Section**
+
+**Book Page : Section**
 
 ## Validator Testing
 
@@ -149,7 +146,7 @@ The icons in the footer were taken from Font Awesome
 The photos used on the home and sign up page are from This Open Source site
 The images used for the gallery page were taken from this other open source site
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-https://elementor.com/ 
+https://elementor.com/
 <https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
 <https://www.istockphoto.com/
 <https://ide.geeksforgeeks.org/online-html-editor/210fd03c-8cf7-462a-8981-1c80740d1f6f>
