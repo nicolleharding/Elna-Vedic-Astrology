@@ -92,4 +92,4 @@ Book Page : Section
 - Make form submit. 
 - Add clickable email. 
 - Make sumit and reset buttons the same size and next to each other. 
-- Fix background image. 
+- Fix background image. - done
