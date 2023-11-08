@@ -49,16 +49,8 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 - #2f4f4f (darkslategrey)
 - #ffffff (white)
 - #542875 (purple)
--
 
-## Features Left to Implement
-
-- Pay gateway to allow user to pay for reading.
-- Animate hero image.
-- Add a gallery for photos of Elna's travel in India.
-- Add page that includes charts of famout people for interest and also to see output.
-
-# Testing
+## Checklist of Things to Fix
 
 Nav
 
@@ -100,3 +92,51 @@ Book Page : Section
 - Add clickable email.
 - Make sumit and reset buttons the same size and next to each other.
 - Fix background image. - done
+
+## Features Left to Implement
+
+- Pay gateway to allow user to pay for reading.
+- Animate hero image.
+- Add a gallery for photos of Elna's travel in India.
+- Add page that includes charts of famout people for interest and also to see output.
+
+# Testing
+
+abcdefg
+
+## Validator Testing
+
+Footer
+- Tested link to social platforms and like to Elna's pages. 
+- Tested link to email, opens email to Elna. 
+
+- HTML
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official (Jigsaw) validator
+
+## Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+# Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab,
+From the source section drop-down menu, select the Master Branch,
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://nicolleharding.github.io/Elna-Vedic-Astrology/
+
+## Credits
+
+# Content
+
+The text for the Home page was taken from Wikipedia Article A
+Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The icons in the footer were taken from Font Awesome
+
+# Media
+
+The photos used on the home and sign up page are from This Open Source site
+The images used for the gallery page were taken from this other open source site
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
