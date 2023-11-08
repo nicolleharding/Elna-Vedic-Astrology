@@ -31,24 +31,39 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 ## Features Left to Implement
 
 - Pay gateway to allow user to pay for reading.
+- Animate hero image. 
 - Add a gallery for photos of Elna's travel in India. 
 - Add page that includes charts of famout people for interest and also to see output. 
-- Convert Faqs to a table which has dropdowns instead of all the copy visible. 
-- 
 
 # Testing
-Hero Image
-- Need to overlay Jyotish image on top of space image and center this. - done
-- Column text 33%, center and add padding. - done
-- Not sure obout the copy on the Hero image. 
 
-Section
-- Adding padding to the image. - done
-- Positioning the texton the right of the image. - done
-- Need to figure out padding of text. 
-- Need to improve placement and colour of button. 
+Nav
+- Change burger image to white. - done
   
 Footer
 - Increase Contact Details font weight. 
 - Responsiveness on footer has issue with logos. 
-- Size of footer seems to large. 
+- Size of footer seems to high.
+- Change FB and IG destination URL's to actual accounts. 
+
+Index Page : Hero Image
+- Column text 33%, center and add padding. - done
+- Not sure obout the copy on the Hero image. - done
+- Add interesting layout for the bullets on the hero image.  
+- Need to improve placement and colour of button. 
+- Make button navigate to Book page. 
+
+Index Page : Section
+- Adding padding to the image. - done
+- Positioning the texton the right of the image. - done
+- Need to figure out padding of text. - done
+- Look at the head shot when responsive as it's tiny. 
+
+FAQs Page : Section
+- Layout seems poor. 
+- Convert Faqs to a table which has dropdowns instead of all the copy visible. 
+
+Book Page : Section
+- Layout is boring need to look at imagery. 
+- Add CSS to form layout. 
+- Make form submit. 
