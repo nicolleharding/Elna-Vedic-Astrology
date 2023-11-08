@@ -36,13 +36,13 @@ Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims
 
 - **Font and Color Pallet**
 - Logo (h1) Font:
-  - Hind Madurai, sans-seri
+  - 'Hind Madurai', sans-seri
 - Hero Font (h2):
-  - Hind Madurai, sans-serif
+  - 'Hind Madurai', sans-serif
 - h2 Body Font:
-  - Athiti, sans-serif
+  - 'Athiti', sans-serif
 - Body Font:
-  - Athiti, sans-serif
+  - 'Athiti', sans-serif
 - Button Font:
   - Hind Madurai, sans-serif
     Color Pallet:

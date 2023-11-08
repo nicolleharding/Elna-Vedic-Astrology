@@ -183,45 +183,55 @@ main {
 
 /* Page section FAQs*/
 
-.faqs-container {
-    display: flex;
+.faqs-section {
+    background-color: #ffffff;
+}
+
+.faqs-style {
+    color: #ffffff;
+    text-align: center;
+}
+
+.faqs-layout {
+    width: 1000px;
+    margin: auto;
+}
+
+.accordion {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.accordion__question p {
     margin: 5px;
-}
-
-.faqs-column1 {
-    flex: 30%;
-    padding-top: 10px;
-    padding-left: 10px;
-    height: auto;
-    color: #2f4f4f;
-}
-
-.faqs-column2 {
-    flex: 70%;
-    padding-top: 30px;
-    padding-left: 10px;
-    height: auto;
-    color: #2f4f4f;
-}
-
-.faqs-image {
-    border: 20px solid #ffffff;
-    max-width: 100%;
-    max-height: auto;
-}
-
-.faqs-text h2 {
-    color: #303A97;
-    text-transform: uppercase;
-}
-
-#faqs-question {
-    color: #542875;
+    padding: 0;
     font-family: 'Athiti', sans-serif;
+    font-size: 20px;
 }
 
-#faqs-answer {
-    padding-left: 5%;
+.accordion__answer p {
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Athiti', sans-serif;
+    color: #ffffff;
+    background: #542875;
+    border-radius: 10px;
+}
+
+.accordion:hover {
+    cursor: pointer;
+}
+
+.accordion__answer {
+    display: none;
+}
+
+.accordion.active .accordion__answer {
+    display: block;
 }
 
 /* Page section Book*/
@@ -248,6 +258,7 @@ form {
     margin-top: 25px;
     background-color: #ffffff;
     margin: auto;
+    border-radius: 10px;
 }
 
 fieldset {
