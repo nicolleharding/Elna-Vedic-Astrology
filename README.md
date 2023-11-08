@@ -58,10 +58,10 @@ Nav
 
 Footer
 
-- Increase Contact Details font weight.
-- Responsiveness on footer has issue with logos.
-- Size of footer seems to high.
-- Change FB and IG destination URL's to actual accounts.
+- Increase Contact Details font weight.- done
+- Responsiveness on footer has issue with logos. - done
+- Size of footer seems to high. - done
+- Change FB and IG destination URL's to actual accounts. - done
 
 Index Page : Hero Image
 
@@ -70,7 +70,7 @@ Index Page : Hero Image
 - Add interesting layout for the bullets on the hero image.
 - Need to improve placement and colour of button.
 - Make button navigate to Book page.
-- Need to get rid of white line under nav bar.
+- Need to get rid of white line under nav bar.- done
 
 Index Page : Section
 
@@ -102,13 +102,21 @@ Book Page : Section
 
 # Testing
 
-abcdefg
+Navigation Bar
 
-## Validator Testing
+- Burger image is correct color and is responsive.
+- On smaller screen when clicked on nav drops down when burger is clicked on.
+- Header text and background is responsive.
 
 Footer
-- Tested link to social platforms and like to Elna's pages. 
-- Tested link to email, opens email to Elna. 
+
+- Tested link to social platforms and like to Elna's pages. Opens in a new tab as intended.
+- Tested link to email, opens email to Elna. Opens in a new tab as intended.
+- Footer size is responsive.
+
+Index Page : Hero Image
+
+## Validator Testing
 
 - HTML
   - No errors were returned when passing through the official W3C validator
@@ -140,3 +148,5 @@ The icons in the footer were taken from Font Awesome
 The photos used on the home and sign up page are from This Open Source site
 The images used for the gallery page were taken from this other open source site
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+https://elementor.com/ 
+<https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
