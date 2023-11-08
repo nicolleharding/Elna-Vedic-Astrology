@@ -98,7 +98,7 @@ nav {
 /* Main */
 main {
     flex: 1 0 auto;
-    margin-top: 45px;
+    margin-top: 73px;
 }
 
 /* Hero Section */
@@ -184,17 +184,19 @@ main {
 /* Page section FAQs*/
 
 .faqs-section {
-    background-color: #ffffff;
+    background-color: lightgrey;
+    padding-top: 25px;
 }
 
 .faqs-style {
-    color: #ffffff;
+    color: #542875;
     text-align: center;
 }
 
 .faqs-layout {
     width: 1000px;
     margin: auto;
+    padding: 10px;
 }
 
 .accordion {
@@ -240,7 +242,7 @@ main {
     background-image: url("../images/book/outerspace.jpg");
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
 
