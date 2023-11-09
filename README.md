@@ -6,8 +6,6 @@ The goal of this website is to allow users to understand more about Vedic Astrol
 
 The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
 
-
-
 # Features
 
 ## Existing Features
@@ -141,6 +139,8 @@ Erros fixed
   - Missing "=" on line 12 after "name" for keyworks.
   - Fixed various elements with trailing slash. 
   - Remove duplicate class for "bold".
+  - Fixed values for attributes on form collection for Book page. 
+  - No errors returned on FAQS Page on first check with W3C. 
 
 
 - CSS
@@ -158,12 +158,14 @@ Erros fixed
   - Button attribute not allowed, need to fix to make button clickable. 
 
 **Index Page : Section**
-  - Fixed values for attributes on form colleciton. 
+
 
 **FAQs Page : Section**
-  - No errors returned on FAQS Page on first check with W3C. 
+  
 
 **Book Page : Section**
+  - Sizing of message box - rows and columns removed as impacted by responsiveness. 
+  - Form container for Galaxt Fold is not fomratted the same as other resolutions. 
 
 
 # Deployment

@@ -280,7 +280,7 @@ main {
 }
 
 form {
-    width: 1000px;
+    width: auto;
     padding: 25px;
     margin-top: 25px;
     background-color: #ffffff;
@@ -324,6 +324,7 @@ input[type=submit] {
     border-radius: 5px;
     font-family: 'Hind Madurai', sans-serif;
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 label {
@@ -342,7 +343,7 @@ legend {
 }
 
 .flex {
-    display: flex;
+    display: 0;
 }
 
 /* Footer */
@@ -375,6 +376,18 @@ footer {
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
+}
+
+/* Media query: mobile smaller than 280px (768px and up) */
+@media screen and (max-width: 300px) {
+
+    /* H2 Adjustment */
+    .consultation-heading {
+        font-size: medium;
+    }
+    form {
+        padding-top: 50px;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -419,7 +432,6 @@ footer {
         padding-top: 10px;
         padding-left: 10px;
         height: auto;
-        color: #ffffff;
     }
     
     .elna-column2 {
@@ -446,6 +458,12 @@ footer {
     .faqs-section {
         padding-top: 25px;
     }
+    form {
+        width: auto;
+    }
+    .flex {
+        display: flex;
+    }
 }
 
 
@@ -464,7 +482,6 @@ footer {
         padding-top: 10px;
         padding-left: 10px;
         height: auto;
-        color: #ffffff;
     }
     
     .elna-column2 {
@@ -479,16 +496,7 @@ footer {
         max-height: auto;
         padding: 25px;
     }
-    
-    .about-elna h2 {
-        text-transform: uppercase;
-        color: #303A97;
-    }
-    
-    .about-elna p {
-        color: #2f4f4f;
-    }
-    
+
     .faqs-layout {
         width: 1000px;
         margin: auto;
@@ -499,5 +507,12 @@ footer {
     }
     .faqs-section {
         padding-top: 25px;
+    }
+    form {
+        width: 1000px;
+    }
+    
+    .flex {
+        display: flex;
     }
 }
