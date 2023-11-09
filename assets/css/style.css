@@ -17,6 +17,9 @@ body {
     color: darkslategray;
     font-family: 'Athiti', sans-serif;
     background-color: #f8f8ff;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -376,6 +379,10 @@ footer {
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
+}
+
+#footer-container {
+    padding: 10px 5px 5px 30px;
 }
 
 /* Media query: mobile smaller than 280px (768px and up) */
