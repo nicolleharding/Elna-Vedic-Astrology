@@ -381,10 +381,6 @@ footer {
     margin: 0 0.5rem;
 }
 
-#footer-container {
-    padding: 10px 5px 5px 30px;
-}
-
 /* Media query: mobile smaller than 280px (768px and up) */
 @media screen and (max-width: 300px) {
 
