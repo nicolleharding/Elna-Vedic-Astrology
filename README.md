@@ -101,6 +101,7 @@ Need to make everything responsive.
 - Layout is boring need to look at imagery. - done
 - Add CSS to form layout. - done
 - Fix background image. - done
+- Change form submit to Code Institute deposit. 
 
 ## Features Left to Implement
 

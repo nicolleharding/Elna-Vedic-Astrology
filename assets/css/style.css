@@ -34,6 +34,11 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #303A97;
+    padding-top: 5px;
+}
+
+p {
+    padding: 7px;
 }
 
 .bold {
