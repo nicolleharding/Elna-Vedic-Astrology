@@ -67,7 +67,7 @@ Need to make everything responsive.
 
 **Footer**
 
-- Increase Contact Details font weight.- done
+- Increase Contact Details font weight.- done (chose to rmeove this wording)
 - Responsiveness on footer has issue with logos. - done
 - Size of footer seems to high. - done
 - Change FB and IG destination URL's to actual accounts. - done
