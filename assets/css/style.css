@@ -29,7 +29,7 @@ h1 {
     color: #ffffff;
 }
 
-h3 {
+h2 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -203,6 +203,14 @@ main {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #303A97;
+}
+
+.consultation-heading-h3 {
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303A97;
+    padding-top: 20px;
 }
 
 .faqs-layout {
