@@ -146,9 +146,7 @@ main {
 }
 
 .hero-button {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 10px;
+    padding: 15px 20px;
     background-color: #542875;
     color: white;
     border: none;
@@ -308,14 +306,14 @@ fieldset {
     margin-top: 20px;
 }
 
-input[type=text] input[type=email] input[type=tel] {
+input[type=text] input[type=email] input[type=number] {
     height: 30px;
     width: 90%;
     padding-left: 10px;
     margin: 0 auto;
 }
 
-input, textarea {
+input {
     padding: 5px;
     font-family: 'Athiti', sans-serif;
     font-size: inherit;
@@ -331,18 +329,17 @@ textarea {
     display: block;
     color: #542875;
     font-family: 'Athiti', sans-serif;
+    padding: 10px;
+    margin: 15px 15px 25px 15px;
 }
 
-input[type=submit] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
+input [type=submit] {
     background-color: #542875;
     color: white;
     border: none;
     border-radius: 5px;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
