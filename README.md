@@ -67,23 +67,23 @@ Need to make everything responsive.
 
 **Footer**
 
-- Increase Contact Details font weight.- done (chose to rmeove this wording)
+- Increase Contact Details font weight.- done (chose to remove this wording)
 - Responsiveness on footer has issue with logos. - done
 - Size of footer seems to high. - done
 - Change FB and IG destination URL's to actual accounts. - done
 
 **Index Page : Hero Image**
 
-- Need to improve placement and colour of button.
-- Make button navigate to Book page.
+- Need to improve placement and colour of button. - done
+- Make button navigate to Book page.v - done
 - Column text, center and add padding. - done
 - Not sure obout the copy on the Hero image. - done
-- Add interesting layout for the bullets on the hero image.
+- Add interesting layout for the bullets on the hero image. - decided not do
 - Need to get rid of white line under nav bar.- done
 
 **Index Page : Section**
 
-- Look at the head shot when responsive as it's tiny.
+- Look at the head shot when responsive as it's tiny. - done
 - Adding padding to the image. - done
 - Positioning the texton the right of the image. - done
 - Need to figure out padding of text. - done
@@ -95,8 +95,9 @@ Need to make everything responsive.
 
 **Book Page : Section**
 
-- Make form submit.
 - Change size of submit button.
+- Change size of text boxes to be responsive.
+- Make form submit. 
 - Layout is boring need to look at imagery. - done
 - Add CSS to form layout. - done
 - Fix background image. - done
@@ -125,12 +126,19 @@ Need to make everything responsive.
 - Footer size is responsive.
 
 **Index Page : Hero Image**
+- Changed image to a WebP image. 
 
 **Index Page : Section**
+- Changed image to a WebP image and resized to 480px as this is the max size that was needed for this image. This was flagged in inital Lighthouse test. 
 
 **FAQs Page : Section**
+- Changed image to a WebP image. 
 
 **Book Page : Section**
+- Changed image to a WebP image. 
+
+**All**
+  - Adjusted body to accomodate extreely large screen sizes over 1600px. 
 
 ## Validator Testing
 

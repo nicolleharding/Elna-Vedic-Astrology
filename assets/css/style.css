@@ -122,6 +122,7 @@ main {
     font-size: 2rem;
     font-family: 'Hind Madurai', sans-serif;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #hero-text-body {
@@ -132,6 +133,7 @@ main {
     font-size: 18px;
     text-transform: none;
     text-wrap:balance;
+    margin-bottom: 30px;
 }
 
 #hero-services {
@@ -140,12 +142,13 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .hero-button {
     margin-top: 20px;
     margin-left: 0.75rem;
-    padding: 0.75rem;
+    padding: 10px;
     background-color: #542875;
     color: white;
     border: none;
@@ -154,6 +157,7 @@ main {
     text-transform: uppercase;
     font-family: 'Hind Madurai', sans-serif;
     align-items: center;
+    text-decoration: none;
 }
 
 /* Page section Index*/
@@ -311,6 +315,18 @@ input[type=text] input[type=email] input[type=tel] {
     margin: 0 auto;
 }
 
+input, textarea {
+    padding: 5px;
+    font-family: 'Athiti', sans-serif;
+    font-size: inherit;
+    width: 200px;
+}
+
+textarea {
+    width: 300px;
+    height: 250px;
+}
+
 .block-label {
     display: block;
     color: #542875;
@@ -381,7 +397,7 @@ footer {
     margin: 0 0.5rem;
 }
 
-/* Media query: mobile smaller than 280px (768px and up) */
+/* Media query: mobile smaller than 280px */
 @media screen and (max-width: 300px) {
 
     /* H2 Adjustment */
@@ -390,6 +406,22 @@ footer {
     }
     form {
         padding-top: 50px;
+    }
+}
+
+/* Media query: mobile smaller than 450px */
+@media screen and (max-width: 450px) {
+
+    /* H2 Adjustment */
+    .consultation-heading {
+        font-size: medium;
+    }
+    form {
+        padding-top: 50px;
+    }
+    textarea {
+        width: 200px;
+        height: 125px;
     }
 }
 
@@ -467,6 +499,10 @@ footer {
     .flex {
         display: flex;
     }
+    textarea {
+        width: 500px;
+        height: 150px;
+    }
 }
 
 
@@ -517,5 +553,9 @@ footer {
     
     .flex {
         display: flex;
+    }
+    textarea {
+        width: 650px;
+        height: 150px;
     }
 }
