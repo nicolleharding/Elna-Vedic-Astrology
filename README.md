@@ -2,6 +2,10 @@
 
 Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims to share more information about Vedic Astrology, the differences between Western and Vedic Astrology, answer any questions a possible client may have and entice people to book a consultation reading wih Elna.
 
+The goal of this website is to allow users to understand more about Vedic Astrology, learn about Elna's experience and credentials, have their concerns addressed through FAQs and easily book a consultation. 
+
+The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
+
 # Features
 
 ## Existing Features
@@ -153,7 +157,7 @@ Erros fixed
 
 **Index Page : Section**
   - Fixed values for attributes on form colleciton. 
-  
+
 **FAQs Page : Section**
   - No errors returned on FAQS Page on first check with W3C. 
 

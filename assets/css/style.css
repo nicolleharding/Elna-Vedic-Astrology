@@ -111,15 +111,12 @@ main {
 }
 
 .text-hero {
-    flex: 50%;
+    display:flex;
     padding-top: 100px;
     padding-left: 200px;
     height: 600px;
     color: #ffffff;
-}
-
-.container-hero {
-    display: flex;
+    text-align: center;
 }
 
 .text-hero-heading {
@@ -129,8 +126,8 @@ main {
     font-family: 'Hind Madurai', sans-serif;
 }
 
-.text-hero-copy li {
-    font-size: 1rem;
+.text-hero-services {
+    font-weight: bold;
 }
 
 .button-label {
