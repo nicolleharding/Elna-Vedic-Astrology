@@ -158,7 +158,7 @@ Erros fixed
   - Button attribute not allowed, need to fix to make button clickable. 
 
 **Index Page : Section**
-
+  - Image size of Elna image is too large and causing performance issues. 
 
 **FAQs Page : Section**
   
