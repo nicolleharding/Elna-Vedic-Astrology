@@ -6,6 +6,8 @@ The goal of this website is to allow users to understand more about Vedic Astrol
 
 The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
 
+![Screenshot 2023-11-09 at 15 50 27](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/e138be6f-5460-4e09-890c-9cb5a3e30eb2)
+
 # Features
 
 ## Existing Features
@@ -193,3 +195,5 @@ https://elementor.com/
 <https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
 <https://www.istockphoto.com/
 <https://ide.geeksforgeeks.org/online-html-editor/210fd03c-8cf7-462a-8981-1c80740d1f6f>
+
+
