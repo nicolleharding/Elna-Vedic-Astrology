@@ -433,14 +433,14 @@ footer {
     .elna-column1 {
         flex: 30%;
         padding-top: 10px;
-        padding-left: 10px;
+        padding-left: 25px;
         height: auto;
     }
     
     .elna-column2 {
         flex: 70%;
+        padding-right: 15px;
         padding-top: 30px;
-        padding-left: 10px;
         height: auto;
     }
     
