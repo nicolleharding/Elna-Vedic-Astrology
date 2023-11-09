@@ -271,7 +271,7 @@ main {
 /* Page section Book*/
 
 #background-book-page {
-    background-image: url("../images/book/outerspace.jpg");
+    background-image: url("../images/book/outerspace.jpg") alt="Background image of stars in the sky";
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 20px 10%;
