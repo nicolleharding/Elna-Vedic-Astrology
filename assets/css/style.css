@@ -153,23 +153,7 @@ main {
 /* Page section Index*/
 
 .elna-container {
-    display: flex;
     margin: 5px;
-}
-
-.elna-column1 {
-    flex: 30%;
-    padding-top: 10px;
-    padding-left: 10px;
-    height: auto;
-    color: #ffffff;
-}
-
-.elna-column2 {
-    flex: 70%;
-    padding-top: 30px;
-    padding-left: 10px;
-    height: auto;
 }
 
 .elna-image {
@@ -181,10 +165,12 @@ main {
 .about-elna h2 {
     text-transform: uppercase;
     color: #303A97;
+    padding-left: 10px;
 }
 
 .about-elna p {
     color: #2f4f4f;
+    padding-left: 10px;
 }
 
 /* Page section FAQs*/
@@ -412,6 +398,41 @@ footer {
 
     #hero-text {
         padding-top: 75px;
+    }
+
+    .elna-container {
+        display: flex;
+        margin: 5px;
+    }
+    
+    .elna-column1 {
+        flex: 30%;
+        padding-top: 10px;
+        padding-left: 10px;
+        height: auto;
+        color: #ffffff;
+    }
+    
+    .elna-column2 {
+        flex: 70%;
+        padding-top: 30px;
+        padding-left: 10px;
+        height: auto;
+    }
+    
+    .elna-image {
+        max-width: 100%;
+        max-height: auto;
+        padding: 25px;
+    }
+    
+    .about-elna h2 {
+        text-transform: uppercase;
+        color: #303A97;
+    }
+    
+    .about-elna p {
+        color: #2f4f4f;
     }
 }
 
