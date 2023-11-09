@@ -112,6 +112,8 @@ main {
 
 #hero-text {
     padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 2rem;
@@ -145,7 +147,8 @@ main {
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
     font-family: 'Hind Madurai', sans-serif;
     align-items: center;
 }
@@ -177,7 +180,7 @@ main {
 
 .faqs-section {
     background-color: #f8f8ff;
-    padding-top: 25px;
+    padding-top: 85px;
 }
 
 .faqs-style {
@@ -186,7 +189,7 @@ main {
 }
 
 .faqs-layout {
-    width: 1000px;
+    width: auto;
     margin: auto;
     padding: 10px;
 }
@@ -238,7 +241,6 @@ main {
 #times {
     background: url('../images/faqs/zodiac_footer.jpg') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
-    display: flex;
 }
 
 #times div {
@@ -368,6 +370,13 @@ footer {
     padding: 5%;
 }
 
+/* Sizing of logo */
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -426,6 +435,51 @@ footer {
         padding: 25px;
     }
     
+    .faqs-layout {
+        width: auto;
+        margin: auto;
+        padding: 10px;
+    }
+    #times {
+        display: flex;
+    }
+    .faqs-section {
+        padding-top: 25px;
+    }
+}
+
+
+/* Large devices (large desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+    .elna-container {
+        display: flex;
+        margin: 5px;
+    }
+    
+    .elna-column1 {
+        flex: 30%;
+        padding-top: 10px;
+        padding-left: 10px;
+        height: auto;
+        color: #ffffff;
+    }
+    
+    .elna-column2 {
+        flex: 70%;
+        padding-top: 30px;
+        padding-left: 10px;
+        height: auto;
+    }
+    
+    .elna-image {
+        max-width: 100%;
+        max-height: auto;
+        padding: 25px;
+    }
+    
     .about-elna h2 {
         text-transform: uppercase;
         color: #303A97;
@@ -434,18 +488,16 @@ footer {
     .about-elna p {
         color: #2f4f4f;
     }
-}
-
-/* Sizing of logo */
-#logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
-
-/* Large devices (large desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #ffffff;
+    
+    .faqs-layout {
+        width: 1000px;
+        margin: auto;
+        padding: 10px;
+    }
+    #times {
+        display: flex;
+    }
+    .faqs-section {
+        padding-top: 25px;
     }
 }

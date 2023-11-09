@@ -6,6 +6,8 @@ The goal of this website is to allow users to understand more about Vedic Astrol
 
 The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
 
+
+
 # Features
 
 ## Existing Features
