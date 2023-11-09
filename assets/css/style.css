@@ -29,12 +29,12 @@ h1 {
     color: #ffffff;
 }
 
-h2 {
+h3 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #303A97;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 p {
@@ -175,7 +175,7 @@ main {
     padding: 25px;
 }
 
-.about-elna h2 {
+.about-elna h3 {
     text-transform: uppercase;
     color: #303A97;
     padding-left: 10px;
@@ -196,6 +196,13 @@ main {
 .faqs-style {
     color: #303A97;
     text-align: center;
+}
+
+.consultation-heading {
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303A97;
 }
 
 .faqs-layout {

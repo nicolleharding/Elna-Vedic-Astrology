@@ -140,6 +140,7 @@ Need to make everything responsive.
 
 **All**
   - Adjusted body to accomodate extreely large screen sizes over 1600px. 
+  - Removed use of <br>.
 
 ## Validator Testing
 
