@@ -97,11 +97,10 @@ Need to make everything responsive.
 
 - Change size of submit button.
 - Change size of text boxes to be responsive.
-- Make form submit. 
+- Change form submit to Code Institute deposit. 
 - Layout is boring need to look at imagery. - done
 - Add CSS to form layout. - done
 - Fix background image. - done
-- Change form submit to Code Institute deposit. 
 
 ## Features Left to Implement
 
@@ -128,19 +127,23 @@ Need to make everything responsive.
 
 **Index Page : Hero Image**
 - Changed image to a WebP image. 
+- Fixed Button to navigate to Book page. 
 
 **Index Page : Section**
 - Changed image to a WebP image and resized to 480px as this is the max size that was needed for this image. This was flagged in inital Lighthouse test. 
+- Increased padding between paragraphs and headings not that <br> is removed. 
 
 **FAQs Page : Section**
 - Changed image to a WebP image. 
 
 **Book Page : Section**
 - Changed image to a WebP image. 
+- Fixed font-size in input field. 
 
 **All**
   - Adjusted body to accomodate extreely large screen sizes over 1600px. 
   - Removed use of <br>.
+  - Fixed syntax to go from h1 > h2 > h3.
 
 ## Validator Testing
 
