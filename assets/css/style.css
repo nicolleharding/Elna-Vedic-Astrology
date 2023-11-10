@@ -306,11 +306,11 @@ main {
 
 form {
     width: auto;
-    padding: 10px;
     margin-top: 25px;
     background-color: #ffffff;
     margin: auto;
     border-radius: 10px;
+    padding: 15px;
 }
 
 fieldset {
@@ -326,21 +326,18 @@ fieldset {
     margin-top: 20px;
 }
 
-input[type=text] input[type=email] input[type=number] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-    margin: 0 auto;
-}
-
 input {
-    padding: 5px;
+    padding: 15px;
     font-family: 'Athiti', sans-serif;
     font-size: inherit;
     width: 200px;
 }
 
 textarea {
+    padding: 15px;
+    font-family: 'Athiti', sans-serif;
+    font-size: inherit;
+    width: 200px;
     width: 300px;
     height: 250px;
 }
@@ -348,30 +345,21 @@ textarea {
 .block-label {
     display: block;
     color: #542875;
-    font-family: 'Athiti', sans-serif;
-    padding: 10px;
-    margin: 15px 15px 25px 15px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 15px;
+    padding: 15px 0px 5px 0px;
 }
 
-input [type=submit] {
+.submit-button {
+    display: block;
     background-color: #542875;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
     color: white;
     border: none;
     border-radius: 5px;
-    font-family: 'Hind Madurai', sans-serif;
-    font-size: 15px;
     text-transform: uppercase;
-}
-
-label {
-    margin: 10px 15px 5px 0;
-}
-
-legend {
-    font-family: 'Hind Madurai', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #303A97;
 }
 
 .gap-20 {
