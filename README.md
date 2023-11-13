@@ -226,6 +226,8 @@ Some content was written by the developer, however the client supplied:
   - Borrowed HTML and CSS code for footer from a combination of Love Running and Coffee Warehouse projects. 
   - Borrowed HTML and CSS code for "Festivals and Fasts" section from Love Running project. 
   - Borrowed HTML and CSS code for "Book" page form from Coffee Warehouse project. 
+  - Watched this video (https://www.youtube.com/watch?v=nYyFf-97Qqg) shared by the tutoring team for CSS. 
+  - Used W3 Schools (https://www.w3schools.com/) for various CSS and HTML troublshooting tasks when stuck with cetain elements. 
   Where possible I have adapted and customised borrowed code to fit Elna Vedic website. 
 
 # Acknowledgements
