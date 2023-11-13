@@ -182,10 +182,10 @@ These are the steps that were followed:
   3. Typed "git push" to push these changes to Git Hub from Codeanywhere of Git Pod.
   4. After adding wireframe, text and images to website, before I started troubleshooting bugs I deployed the website. This is because some styling looks different on a deployed website to the staging area.  
 
-## Ensuring the file path was correct to find images, navigation and files
+## File Paths
   1. Used the file's path, such as assets/css/style.css or index.html, to add a single file. Used ../ before image files to ensure the file path was relative. 
 
-## Deployment
+## Deployment Process
   1. Decided when the right time was to deploy, as discussed above. 
   2. Pushed all updated to Git Hub.
   3. Logged in with Git Hub.
@@ -200,19 +200,19 @@ https://nicolleharding.github.io/Elna-Vedic-Astrology/
 
 # Credits
 
-**Content**
+## Content
 Some content was written by the developer, however the client supplied:
   1. About Elna
   2. List of important festivals and fasts
   3. What you need to share and can expect from a consultation. 
   4. The FAQ's were researched online but most were borrowed and reworded from, https://vishalkrishnasharma.com/, or supplied by Elna.  
 
-**Design**
+## Design
   - Ideas for design and style were taken from <https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
   - Font was taken from Google fonts. 
   - Color scheme was tested in https://color.adobe.com/. 
 
-**Media**
+## Media
   - Index page hero Image (index_hero): purchased from iStock
   - Elna head shot (index_elna_head_shot): supplied by client (Elna)
   - Bottom FAQS (faqs_footer): purchased from iStock
@@ -220,7 +220,7 @@ Some content was written by the developer, however the client supplied:
   - Footer social images and burger icon for navigation: Downloaded from Font Awesome
   - Favicon: purchased from Shutterstock
 
-**Code**
+## Code
   - Borrowed HTML and CSS code for logo and navigation from Love Running project. 
   - Borrowed HTML and CSS code for accordion drop down on "FAQs" page from https://ide.geeksforgeeks.org/online-html-editor/210fd03c-8cf7-462a-8981-1c80740d1f6f. 
   - Borrowed HTML and CSS code for footer from a combination of Love Running and Coffee Warehouse projects. 
