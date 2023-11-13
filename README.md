@@ -8,6 +8,13 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 
 ![Screenshot 2023-11-09 at 15 50 27](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/e138be6f-5460-4e09-890c-9cb5a3e30eb2)
 
+## Live Website
+https://nicolleharding.github.io/Elna-Vedic-Astrology/ 
+
+## Table of Contents
+- [Features] (#Features)
+- 
+
 # Features
 
 ## Existing Features
