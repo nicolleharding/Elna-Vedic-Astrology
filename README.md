@@ -189,24 +189,29 @@ HTML Errors Fixed
 
 **Adding and Commiting Files**
 These are the steps that were followed:
-1. Typed "git add" in the command line. Use "." to add a new change to a file. 
-2. Then typed "git commit" to commit these files to the repository with a comment. To add a comment I typed -m "With a detailed explination of the change you have made". I did this on a regular basis to ensure I had versions of changes, should I need to go back to a previous version. I struggled with this in the beginning as Codeanywhere had significant delays, but since changing to writing code in Git Pod this has been resolved. 
-3. Typed "git push" to push these changes to Git Hub from Codeanywhere of Git Pod.
-4. After adding wireframe, text and ianges to website, before I started troubleshooting bugs I deployed the website. This is because some styling looks different on a deployed website to the staging area.  
+  1. Typed "git add" in the command line. Use "." to add a new change to a file. 
+  2. Then typed "git commit" to commit these files to the repository with a comment. To add a comment I typed -m "With a detailed explination of the change you have made". I did this on a regular basis to ensure I had versions of changes, should I need to go back to a previous version. I struggled with this in the beginning as Codeanywhere had significant delays, but since changing to writing code in Git Pod this has been resolved. 
+  3. Typed "git push" to push these changes to Git Hub from Codeanywhere of Git Pod.
+  4. After adding wireframe, text and ianges to website, before I started troubleshooting bugs I deployed the website. This is because some styling looks different on a deployed website to the staging area.  
 
 **Ensuring the file path was correct to find images, navigation and files**
-Used the file's path, such as assets/css/style.css or index.html, to add a single file. Used ../ before image files to ensure the file path was relative. 
+  1. Used the file's path, such as assets/css/style.css or index.html, to add a single file. Used ../ before image files to ensure the file path was relative. 
 
 **The live link can be found here** 
 https://nicolleharding.github.io/Elna-Vedic-Astrology/
 
 ## Credits
 
-# Content
+**Content**
+Some content was written by the developer, however the client supplied:
+  1. About Elna
+  2. List of important festivals and fasts
+  3. What you need to share and can expect from a consultation. 
+  4. The FAQ's were researched online but most were borrowed and reworded from, https://vishalkrishnasharma.com/, or supplied by Elna.  
 
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+**Design**
+
+  - Ideas for design and style were taken from <https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
 
 # Media
 
