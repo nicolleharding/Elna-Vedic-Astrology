@@ -1,18 +1,13 @@
 # Vedic Astrology
 
-Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims to share more information about Vedic Astrology, the differences between Western and Vedic Astrology, answer any questions a possible client may have and entice people to book a consultation reading with Elna.
-
-The goal of this website is to allow users to understand more about Vedic Astrology, learn about Elna's experience and credentials, have their concerns addressed through FAQs and easily book a consultation. 
-
-The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
-
 ![Screenshot 2023-11-09 at 15 50 27](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/e138be6f-5460-4e09-890c-9cb5a3e30eb2)
 
 ## Live Website
 https://nicolleharding.github.io/Elna-Vedic-Astrology/ 
 
 ## Table of Contents
-- [Features] (#Features)
+- [Strategy & Features] (#Strategy & Features)
+  - [Wireframe] (#Wireframe)
   - [Existing Features] (#Existing Features)
   - [Checklist of Things to Fix] (#Checklist of Things to Fix)
   - [Features Left to Implement] (#Features Left to Implement)
@@ -32,9 +27,27 @@ https://nicolleharding.github.io/Elna-Vedic-Astrology/
   - [Code]
 - [Acknowledgements]
 
-# Features
+# Strategy and Features
 
-## Existing Features
+Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims to share more information about Vedic Astrology, the differences between Western and Vedic Astrology, answer any questions a possible client may have and entice people to book a consultation reading with Elna.
+
+**Goal**
+The goal of this website is to allow users to understand more about Vedic Astrology, learn about Elna's experience and credentials, have their concerns addressed through FAQs and easily book a consultation. 
+
+The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
+
+**Potential Clients**
+  - Individuals who are interested in astrology.
+  - Individuals who are going through tough changes in life.
+  - Individuals who follow a vedic lifestyle.
+
+## Wireframe
+
+(Image of Index page)
+
+
+
+## Existing Features (In Scope)
 
 **Navigation Bar**
 - Positioned on top right of the page next to the logo which is on the left of the page and the nav bar on the right. The nav bar item selected is underline when on the page, and moves to the next page as the user hovers on that nav selection.
@@ -116,7 +129,7 @@ Need to make everything responsive. - done
 - Add CSS to form layout. - done
 - Fix background image. - done
 
-## Features Left to Implement
+## Features Left to Implement (Out of Scope)
 
 - Pay gateway to allow user to pay for consultation.
 - Animate hero image.
