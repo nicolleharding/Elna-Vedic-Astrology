@@ -43,19 +43,30 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 
 ## Wireframe
 
-(Image of Index page)
+**Index Page**
+![Screenshot 2023-11-13 at 19 42 23](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/43534010-a9b0-416e-8cce-b0c05667e2ff)
 
+**FAQs Page**
+![Screenshot 2023-11-13 at 19 44 49](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/fa651c94-28b2-49ce-9502-d3c755aeea59)
 
+**Book Page**
+![Screenshot 2023-11-13 at 19 46 02](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/185eb101-52e8-4f44-8db0-3e0ec7301bd6)
+
+- Removed Gallery page due to time contraints and assignment requirements.
 
 ## Existing Features (In Scope)
 
 **Navigation Bar**
 - Positioned on top right of the page next to the logo which is on the left of the page and the nav bar on the right. The nav bar item selected is underline when on the page, and moves to the next page as the user hovers on that nav selection.
 - The responsive navigation bar includes links to the Home page, FAQs page and Book page which is fully responsive and identical on each page for easy of use.
+  
+![Image of Nav Bar](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/2772752a-7c11-4d82-9ee8-d12d116d1a89)
 
 **Footer**
 - Set on a blue background, the footer includes the email address and the social links centered on the page. The links are clickable and navigate to the desired destination in a new tab, with the email opening up a new email.
 - The footer remains the same on each page of the website.
+
+![Image of footer](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/c9235e9e-738e-4a16-8bd2-528bbb28c6a4)
 
 **The Landing Page (Home page)**
 - Cover hero image of moon in night sky, with text that highlights services Elna offers and gives the user more information on what Vedic Astrology is. Included is a button to help users navigate to the Book page. This is to increase awareness of call to action and highlight why the user would want to enquire for a consultation.
@@ -66,6 +77,8 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 **FAQs**
 - Centered at the top of the page is an accordion FAQs section. The questions are designed to be clickable exposing the answers. A hand appears on the scroller to ensure the user knows to click on the question box. This creates a better user experience as it is more visually appealing.
 - At the bottom of the FAQs page is an image of the zodiac on a black star sky. Overlayed on this image is the upcoming festivals and fasts for the next quarter.
+
+<img width="576" alt="Screenshot 2023-11-13 at 19 51 37" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/a44a06ac-ecf7-4df7-8766-59c2c0321af9">
 
 **Book**
 - Set on a background of stars in the galaxy, the "Book a Consultation" form includes collection fields of name, email, contact number, consult date and a message box. The email box is set to only accept email details. All boxes are required other than the message box.
