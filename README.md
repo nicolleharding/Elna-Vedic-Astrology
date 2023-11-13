@@ -187,20 +187,30 @@ HTML Errors Fixed
 
 # Deployment
 
-**Adding and Commiting Files**
+## Adding and Commiting Files
 These are the steps that were followed:
   1. Typed "git add" in the command line. Use "." to add a new change to a file. 
   2. Then typed "git commit" to commit these files to the repository with a comment. To add a comment I typed -m "With a detailed explination of the change you have made". I did this on a regular basis to ensure I had versions of changes, should I need to go back to a previous version. I struggled with this in the beginning as Codeanywhere had significant delays, but since changing to writing code in Git Pod this has been resolved. 
   3. Typed "git push" to push these changes to Git Hub from Codeanywhere of Git Pod.
   4. After adding wireframe, text and ianges to website, before I started troubleshooting bugs I deployed the website. This is because some styling looks different on a deployed website to the staging area.  
 
-**Ensuring the file path was correct to find images, navigation and files**
+## Ensuring the file path was correct to find images, navigation and files
   1. Used the file's path, such as assets/css/style.css or index.html, to add a single file. Used ../ before image files to ensure the file path was relative. 
 
-**The live link can be found here** 
+## Deployment
+  1. Decided when the right time was to deploy, as discussed above. 
+  2. Pushed all updated to Git Hub.
+  3. Logged in with Git Hub.
+  4. Selected "Settings" from the menu that was displayed in Gut Hub.
+  5. Navigated to the "Pages" section on the left hand side of the screen, under the "Code and Automation" section. 
+  6. Clicked "None" in the dropdown menu under "Source" and choose "Main Branch".
+  7. To find the now-published site link, go back down the page to the "GitHub Pages" section.
+  8. Select deployed page from the Git Hub Pages section or the quicklink on the right hand side of the main page. 
+
+## The live link can be found here
 https://nicolleharding.github.io/Elna-Vedic-Astrology/
 
-## Credits
+# Credits
 
 **Content**
 Some content was written by the developer, however the client supplied:
@@ -213,18 +223,16 @@ Some content was written by the developer, however the client supplied:
 
   - Ideas for design and style were taken from <https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
 
-# Media
+**Media**
 
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-https://elementor.com/
-<https://preview.themeforest.net/item/jyotish-html-template/full_screen_preview/24299144?_ga=2.1031095.781021030.1699353928-286597811.1698831490>
-<https://www.istockphoto.com/
-<https://ide.geeksforgeeks.org/online-html-editor/210fd03c-8cf7-462a-8981-1c80740d1f6f>
+  - Index page hero Image (index_hero): purchased from iStock
+  - Elna head shot (index_elna_head_shot): supplied by client (Elna)
+  - Bottom FAQS (faqs_footer): purchased from iStock
+  - Background image Book (book_background): purchased from Shutterstock
+  - Footer social images and burger icon for navigation: Downloaded from Font Awesome
+  - Favicon: purchased from Shutterstock
 
-<<<<<<< HEAD
-![image of Jyotish](../Elna-Vedic-Astrology/assets/images/faqs/parasara_jyotish.png)
-=======
-
->>>>>>> 82350918435c4af2ab4942da0233206e5c8df25e
+**Code**
+  - Borrowed code for navigation from Love Running project. 
+  - Borrowed code for accordian drop down on FAQs page from https://ide.geeksforgeeks.org/online-html-editor/210fd03c-8cf7-462a-8981-1c80740d1f6f. 
+  - 
