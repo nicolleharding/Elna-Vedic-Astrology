@@ -22,7 +22,7 @@ https://nicolleharding.github.io/Elna-Vedic-Astrology/
   - [Unfixed Bugs] (#Unfixed Bugs)
 - [Deployment] (#Deployment)
   - [Adding and Committing Files] (#Adding and Committing Files)
-  - [File Paths]
+  - [File Paths] (#File Paths)
   - [Deployment Process]
   - [Live link]
 - [Credits] (#Credits)
@@ -30,7 +30,7 @@ https://nicolleharding.github.io/Elna-Vedic-Astrology/
   - [Design]
   - [Media]
   - [Code]
-- [Acknoledgements]
+- [Acknowledgements]
 
 # Features
 
