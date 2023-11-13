@@ -232,3 +232,5 @@ Some content was written by the developer, however the client supplied:
 A huge thank you to my mentor Brian Macharia who has been outstanding in his feedback and advice. He is well organised, gives clear feedback and next actions. He has helped me successfully deploy this project by providing structured helped and resources throughout the process. 
 
 A thank you mention to Nathan Surgenor who took the time to review my design and code and provide useful feedback on how to adapt my design to more easily achieve responsiveness. 
+
+Thank you to Tutors Oisin and Sean who where very helpful in helping me to learn and resolve issues when I got stuck. 
