@@ -150,46 +150,55 @@ Need to make everything responsive.
 - HTML
 No errors were returned when passing through the official W3C validator
 
-Erros fixed
+HTML Errors Fixed
   - Missing "=" on line 12 after "name" for keyworks.
   - Fixed various elements with trailing slash. 
   - Remove duplicate class for "bold".
   - Fixed values for attributes on form collection for Book page. 
   - No errors returned on FAQS Page on first check with W3C. 
-
+  - 
 
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
+  CSS Errors Fixed
+- 
+
 ## Unfixed Bugs
 
 **Navigation Bar**
-
+  - None
 
 **Footer**
-
+  - None
 
 **Index Page : Hero Image**
-  - Button attribute not allowed, need to fix to make button clickable. 
+  - None
 
 **Index Page : Section**
-  - Image size of Elna image is too large and causing performance issues. 
+  - None 
 
 **FAQs Page : Section**
-  
+  - None
 
 **Book Page : Section**
   - Sizing of message box - rows and columns removed as impacted by responsiveness. 
-  - Form container for Galaxt Fold is not fomratted the same as other resolutions. 
-
+  - Form container for Galaxy Fold is not formatted the same as other resolutions. 
 
 # Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab,
-From the source section drop-down menu, select the Master Branch,
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://nicolleharding.github.io/Elna-Vedic-Astrology/
+**Adding and Commiting Files**
+These are the steps that were followed:
+1. Typed "git add" in the command line. Use "." to add a new change to a file. 
+2. Then typed "git commit" to commit these files to the repository with a comment. To add a comment I typed -m "With a detailed explination of the change you have made". I did this on a regular basis to ensure I had versions of changes, should I need to go back to a previous version. I struggled with this in the beginning as Codeanywhere had significant delays, but since changing to writing code in Git Pod this has been resolved. 
+3. Typed "git push" to push these changes to Git Hub from Codeanywhere of Git Pod.
+4. After adding wireframe, text and ianges to website, before I started troubleshooting bugs I deployed the website. This is because some styling looks different on a deployed website to the staging area.  
+
+**Ensuring the file path was correct to find images, navigation and files**
+Used the file's path, such as assets/css/style.css or index.html, to add a single file. Used ../ before image files to ensure the file path was relative. 
+
+**The live link can be found here** 
+https://nicolleharding.github.io/Elna-Vedic-Astrology/
 
 ## Credits
 
