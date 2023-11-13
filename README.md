@@ -13,7 +13,24 @@ https://nicolleharding.github.io/Elna-Vedic-Astrology/
 
 ## Table of Contents
 - [Features] (#Features)
-- 
+  - [Existing Features] (#Existing Features)
+  - [Checklist of Things to Fix] (#Checklist of Things to Fix)
+  - [Features Left to Implement] (#Features Left to Implement)
+- [Testing] (#Testing)
+  - [Testing Itemised] (#Testing Itemised)
+  - [Validator Testing] (#Validator Testing)
+  - [Unfixed Bugs] (#Unfixed Bugs)
+- [Deployment] (#Deployment)
+  - [Adding and Committing Files] (#Adding and Committing Files)
+  - [File Paths]
+  - [Deployment Process]
+  - [Live link]
+- [Credits] (#Credits)
+  - [Content]
+  - [Design]
+  - [Media]
+  - [Code]
+- [Acknoledgements]
 
 # Features
 
@@ -109,6 +126,8 @@ Need to make everything responsive. - done
 - Add more content on zodiac and perhaps some animation to explore this.
 
 # Testing
+
+## Testing Itemised
 
 **Navigation Bar**
 - Burger image is correct color and is responsive.
