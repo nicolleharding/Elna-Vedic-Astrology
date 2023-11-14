@@ -34,7 +34,6 @@ h1 {
 
 h2 {
     color: #303A97;
-    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -217,7 +216,7 @@ a.hero-button {
 
 .faqs-section {
     background-color: #f8f8ff;
-    padding-top: 85px;
+    padding-top: 20px;
 }
 
 .faqs-style {
@@ -241,9 +240,10 @@ a.hero-button {
 }
 
 .faqs-layout {
-    width: auto;
-    margin: auto;
-    padding: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .accordion {
@@ -515,55 +515,60 @@ footer {
 
     /*FAQS Layout*/
 
-    .faqs-layout {
-        width: auto;
-        margin: auto;
-        padding: 10px;
-    }
     #times {
         display: flex;
     }
+
     .faqs-section {
         padding-top: 25px;
     }
+
     /*Book Now*/
     form {
         width: auto;
     }
+
     .flex {
         display: flex;
     }
+
     textarea {
         width: 500px;
         height: 150px;
     }
 }
 
-
 /* Large devices (large desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
+
     .faqs-layout {
         max-width: 1000px;
         margin: auto;
         padding: 10px;
     }
+
     #times {
         display: flex;
     }
+
     .faqs-section {
         padding-top: 25px;
     }
+
     form {
         width: 1000px;
     }
-    .flex {
-        display: flex;
-    }
+
     textarea {
         width: 650px;
         height: 150px;
+    }
+
+    .flex {
+        display: flex;
     }
 }
