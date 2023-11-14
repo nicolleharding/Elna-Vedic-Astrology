@@ -166,30 +166,37 @@ Need to make everything responsive. - done
 **Navigation Bar**
 - Burger image is correct color and is responsive.
 - On smaller screen when clicked on nav drops down when burger is clicked on.
-- Header text and background is responsive.
 
 **Footer**
 - Tested link to social platforms and linked to Elna's pages. Opens in a new tab as intended.
 - Tested link to email, opens email to Elna. Opens in a new tab as intended.
-- Footer size is responsive.
+- Footer size is responsive. 
 
 **Index Page : Hero Image**
 - Changed image to a WebP image. 
-- Fixed Button to navigate to Book page. 
+- Header text and background is responsive.
+- "Book Now" attribute navigates to Book page. 
 
 **Index Page : Section**
 - Changed image to a WebP image and resized to 480px as this is the max size that was needed for this image. This was flagged in initial Lighthouse test. 
 - Increased padding between paragraphs and headings not that <br> is removed. 
+- Text for About Elna floats around image for screen size under 767x. To ensure not as much white space and smaller image. 
+- Elna head shot scales in size depending on screen size. 
 
 **FAQs Page : Section**
 - Changed image to a WebP image. 
+- Accordian drop downs work on both large and small screens. 
+- Accordian text box has width that is responsive. 
+- Fasts and Festivals image and text changes to be responsive. 
 
 **Book Page : Section**
-- Changed image to a WebP image. 
+- Changed background image to a WebP image. 
 - Fixed font-size in input field.
 - Validated required email in "Email" field.
 - Validated required numbers in "Number" field.
-- 
+- Validated that the "Book Now" input sends to input data to formdump and formatting is correct.
+- Checked form width is responsive. 
+- Checked text under form input is responsive and has good spacing. 
 
 **All**
   - Adjusted body to accommodate extremely large screen sizes over 1600px. 
@@ -198,7 +205,7 @@ Need to make everything responsive. - done
 
 ## Validator Testing
 
-- HTML
+**HTML**
 No errors were returned when passing through the official W3C validator
 
 HTML Errors Fixed
@@ -207,34 +214,39 @@ HTML Errors Fixed
   - Remove duplicate class for "bold".
   - Fixed values for attributes on form collection for Book page. 
   - No errors returned on FAQS Page on first check with W3C. 
-  - 
 
-- CSS
+**CSS**
   - No errors were found when passing through the official (Jigsaw) validator
 
   CSS Errors Fixed
-- 
+  - Hero-image needed a height and width. 
+
+**Lighthouse**
+
+
 
 ## Unfixed Bugs
 
 **Navigation Bar**
-  - None
+  - None known
 
 **Footer**
-  - None
+  - None known
 
 **Index Page : Hero Image**
-  - None
+  - None known
 
 **Index Page : Section**
-  - None 
+  - None known 
 
 **FAQs Page : Section**
-  - None
+  - None known
 
 **Book Page : Section**
-  - Sizing of message box - rows and columns removed as impacted by responsiveness. 
-  - Form container for Galaxy Fold is not formatted the same as other resolutions. 
+  - None known
+
+**CSS**
+  - Consolidate some of the CSS rules, however on attempt this caused many formating errors. Need to be mindful of this for future. 
 
 # Deployment
 
