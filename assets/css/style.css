@@ -183,7 +183,7 @@ a.hero-button {
 }
 
 .elna-image {
-    max-width: 100%;
+    max-width: 350px;
     max-height: 100%;
     padding: 25px;
     float: left;
@@ -512,6 +512,13 @@ footer {
         display: flex;
         margin: 5px;
     }
+
+    .elna-image {
+        max-width: 450px;
+        max-height: 100%;
+        padding: 25px;
+        float: left;
+    }
     
     .elna-column1 {
         flex: 30%;
@@ -525,13 +532,6 @@ footer {
         padding-right: 15px;
         padding-top: 30px;
         height: auto;
-    }
-    
-    .elna-image {
-        max-width: 100%;
-        padding: 25px;
-        float: none;
-        max-height: 100%;
     }
     
     .faqs-layout {
@@ -567,6 +567,13 @@ footer {
     .elna-container {
         display: flex;
         margin: 5px;
+    }
+
+    .elna-image {
+        max-width: 560px;
+        max-height: 676px;
+        padding: 25px;
+        float: none;
     }
     
     .elna-column1 {
