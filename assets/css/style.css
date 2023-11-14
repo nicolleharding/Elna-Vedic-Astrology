@@ -34,8 +34,7 @@ h1 {
 
 h2 {
     color: #303A97;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 h4 {
@@ -85,7 +84,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #ffffff
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Navbar style with dropdown toggle */
@@ -147,8 +146,8 @@ main {
     font-size: 1.125rem;
     text-transform: none;
     margin-bottom: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #hero-services {
@@ -180,23 +179,33 @@ a.hero-button {
 /* Page section Index*/
 
 .elna-container {
-    margin: 5px;
+    margin: 1%;
 }
 
 .elna-image {
-    max-width: 100%;
-    padding: 25px;
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    margin: 1%;
 }
 
-.about-elna h3 {
+.about-elna h2 {
     text-transform: uppercase;
     color: #303A97;
-    padding-left: 10px;
+    padding-left: 2%;
+}
+
+.why-vedic {
+    font-family: 'Hind Madurai', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #303A97;
+    padding-top: 1.5%;
 }
 
 .about-elna p {
     color: #2f4f4f;
-    padding-left: 10px;
+    padding-left: 5%;
 }
 
 .jyotish {
@@ -207,7 +216,7 @@ a.hero-button {
 
 .faqs-section {
     background-color: #f8f8ff;
-    padding-top: 85px;
+    padding-top: 20px;
 }
 
 .faqs-style {
@@ -231,9 +240,10 @@ a.hero-button {
 }
 
 .faqs-layout {
-    width: auto;
-    margin: auto;
-    padding: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .accordion {
@@ -371,7 +381,7 @@ textarea {
     display: block;
     background-color: #542875;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 0.94rem;
+    font-size: 1rem;
     margin-left: 15px;
     color: white;
     border: none;
@@ -451,12 +461,17 @@ footer {
     }
 }
 
-/* Media query: mobile smaller than 450px */
-@media screen and (max-width: 450px) {
+/* Media query: mobile smaller than 500px */
+@media screen and (max-width: 500px) {
 
     /* H2 Adjustment */
+    
     .consultation-heading {
         font-size: medium;
+    }
+    #hero-text-body {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     form {
         padding-top: 50px;
@@ -465,7 +480,6 @@ footer {
         width: 200px;
         height: 125px;
     }
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -504,81 +518,36 @@ footer {
         padding-right: 30%;
     }
 
-    .elna-container {
-        display: flex;
-        margin: 5px;
-    }
-    
-    .elna-column1 {
-        flex: 30%;
-        padding-top: 10px;
-        padding-left: 25px;
-        height: auto;
-    }
-    
-    .elna-column2 {
-        flex: 70%;
-        padding-right: 15px;
-        padding-top: 30px;
-        height: auto;
-    }
-    
-    .elna-image {
-        max-width: 100%;
-        padding: 25px;
-    }
-    
-    .faqs-layout {
-        width: auto;
-        margin: auto;
-        padding: 10px;
-    }
+    /*FAQS Layout*/
+
     #times {
         display: flex;
     }
+
     .faqs-section {
         padding-top: 25px;
     }
+
+    /*Book Now*/
     form {
         width: auto;
     }
+
     .flex {
         display: flex;
     }
+
     textarea {
         width: 500px;
         height: 150px;
     }
 }
 
-
 /* Large devices (large desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
-    }
-    .elna-container {
-        display: flex;
-        margin: 5px;
-    }
-    
-    .elna-column1 {
-        flex: 30%;
-        padding-top: 10px;
-        padding-left: 10px;
-        height: auto;
-    }
-    
-    .elna-column2 {
-        flex: 70%;
-        padding-top: 30px;
-        padding-left: 10px;
-        height: auto;
-    }
-    
-    .elna-image {
-        max-width: 100%;
-        padding: 25px;
     }
 
     .faqs-layout {
@@ -586,21 +555,25 @@ footer {
         margin: auto;
         padding: 10px;
     }
+
     #times {
         display: flex;
     }
+
     .faqs-section {
         padding-top: 25px;
     }
+
     form {
         width: 1000px;
     }
-    
-    .flex {
-        display: flex;
-    }
+
     textarea {
         width: 650px;
         height: 150px;
+    }
+
+    .flex {
+        display: flex;
     }
 }
