@@ -85,7 +85,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #ffffff
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Navbar style with dropdown toggle */
@@ -502,7 +502,7 @@ footer {
     }
 
     .nav-toggle-label {
-        display: none
+        display: none;
     }
 
     #hero1 {
@@ -545,7 +545,6 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
-
     .faqs-layout {
         max-width: 1000px;
         margin: auto;
@@ -560,7 +559,6 @@ footer {
     form {
         width: 1000px;
     }
-    
     .flex {
         display: flex;
     }
