@@ -187,10 +187,13 @@ a.hero-button {
     padding: 25px;
 }
 
-.about-elna h3 {
+.why-vedic {
     text-transform: uppercase;
     color: #303A97;
     padding-left: 10px;
+    font-family: 'Hind Madurai', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 1%;
 }
 
 .about-elna p {
@@ -333,10 +336,10 @@ fieldset {
     display: block;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
-    padding-block-start: 0.35em;
-    padding-inline-start: 0.75em;
-    padding-inline-end: 0.75em;
-    padding-block-end: 0.625em;
+    padding-block-start: 5px;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+    padding-block-end: 10px;
     min-inline-size: min-content;
     border: none;
     margin-top: 20px;
