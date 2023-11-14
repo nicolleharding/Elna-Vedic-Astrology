@@ -25,7 +25,7 @@ body {
 h1, h2 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.125rem;
+    letter-spacing: 2px;
 }
 
 h1 {
@@ -34,16 +34,16 @@ h1 {
 
 h2 {
     color: #303A97;
-    padding-top: 1.6rem;
-    padding-left: 3.2rem;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 h4 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 0.125rem;
+    letter-spacing: 2px;
     color: #ffffff;
-    padding-top: 1.6rem;
+    padding-top: 10px;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
 /* Header */
 header {
     background-color: #542875;
-    padding: 0 1rem;
+    padding: 0 16px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -80,7 +80,7 @@ header a {
 }
 
 #menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     text-transform: uppercase;
 }
 
@@ -94,7 +94,7 @@ nav {
     background-color: #542875;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 16px;
     box-shadow: 0 2px 2px #ffffff;
     display: none;
     top: 100%;
@@ -147,8 +147,8 @@ main {
     font-size: 1.125rem;
     text-transform: none;
     margin-bottom: 30px;
-    padding-left: 35rem;
-    padding-right: 35rem;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #hero-services {
