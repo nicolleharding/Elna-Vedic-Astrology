@@ -25,7 +25,7 @@ body {
 h1, h2 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 h1 {
@@ -34,16 +34,16 @@ h1 {
 
 h2 {
     color: #303A97;
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 1.6rem;
+    padding-left: 3.2rem;
 }
 
 h4 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
     color: #ffffff;
-    padding-top: 10px;
+    padding-top: 1.6rem;
 }
 
 p {
@@ -146,8 +146,9 @@ main {
     font-family: 'Athiti', sans-serif;
     font-size: 1.125rem;
     text-transform: none;
-    text-wrap: balance;
     margin-bottom: 30px;
+    padding-left: 35rem;
+    padding-right: 35rem;
 }
 
 #hero-services {
@@ -380,10 +381,6 @@ textarea {
 
 .gap-20 {
     gap: 20px;
-}
-
-.flex {
-    display: 0;
 }
 
 .consultation-list {

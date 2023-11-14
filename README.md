@@ -6,10 +6,25 @@
 https://nicolleharding.github.io/Elna-Vedic-Astrology/ 
 
 ## Table of Contents
-- [Strategy & Features](#strategy-and-features)
-- [Testing](#testing)
+- [Strategy & Features](#strategy-&-features)
+  - [Wireframe](#wireframe)
+  - [Existing Features](#existing-features)
+  - [Checklist of Things to Fix](#checklist-of-things-to-fix)
+  - [Features Left to Implement](#features-left-to-implement)
+- [Testing](#Testing)
+  - [Testing Itemised](#testing-itemised)
+  - [Validator Testing](#validator-testing)
+  - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
+  - [Adding and Committing Files](#adding-and-committing-files)
+  - [File Paths](#file-paths)
+  - [Deployment Process](#deployment-process)
+  - [Live link](#live-link)
 - [Credits](#credits)
+  - [Content](#content)
+  - [Design](#design)
+  - [Media](#media)
+  - [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
 # Strategy and Features
@@ -63,6 +78,8 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 - The section includes a descriptive write up of Elna's experience, how she started with Vedic Astrology and her study experience. Many people may not know what Vedic Astrology is.
 - To highlight to the user why they would want Vedic Astrology over Western Astrology, I have included a Why Vedic Astrology section on this page.
 
+<img width="896" alt="Screenshot 2023-11-13 at 22 32 43" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/260970a7-25d7-479f-9c17-6501e0679416">
+
 **FAQs**
 - Centered at the top of the page is an accordion FAQs section. The questions are designed to be clickable exposing the answers. A hand appears on the scroller to ensure the user knows to click on the question box. This creates a better user experience as it is more visually appealing.
 - At the bottom of the FAQs page is an image of the zodiac on a black star sky. Overlayed on this image is the upcoming festivals and fasts for the next quarter.
@@ -74,6 +91,8 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 - I have intentionally left off the price of a consultation as this is variable depending on country and the clients (Elna) preference.
 - Under the boxes is a "Book Now" button, which sends the data collected directly to Elna via email.
 - Included in the form is what a user will need to share for a consultation and what to expect. The for main points of the "What to Expect" content are in bold and purple to visually catch the users eye and highlight these points.
+
+<img width="1790" alt="Screenshot 2023-11-13 at 22 37 36" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/7f11a59d-86a1-4f34-af1c-0332b58ea27a">
 
 **Font and Color Pallet**
 - Logo (h1) Font:
