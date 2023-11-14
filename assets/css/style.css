@@ -183,20 +183,31 @@ a.hero-button {
     margin: 5px;
 }
 
-.elna-image {
-    max-width: 100%;
-    padding: 25px;
+.elna-column1 {
+    flex: 30%;
 }
 
-.about-elna h3 {
+.elna-column2 {
+    flex: 70%;
+    padding-top: 1%;
+}
+
+.elna-image {
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+    margin: 2%;
+}
+
+.about-elna h2, h3 {
     text-transform: uppercase;
     color: #303A97;
-    padding-left: 10px;
+    padding-left: 2%;
 }
 
 .about-elna p {
     color: #2f4f4f;
-    padding-left: 10px;
+    padding-left: 5%;
 }
 
 .jyotish {
@@ -451,12 +462,17 @@ footer {
     }
 }
 
-/* Media query: mobile smaller than 450px */
-@media screen and (max-width: 450px) {
+/* Media query: mobile smaller than 500px */
+@media screen and (max-width: 500px) {
 
     /* H2 Adjustment */
+    
     .consultation-heading {
         font-size: medium;
+    }
+    #hero-text-body {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     form {
         padding-top: 50px;
@@ -465,7 +481,6 @@ footer {
         width: 200px;
         height: 125px;
     }
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -499,30 +514,8 @@ footer {
         padding-top: 75px;
     }
 
-    .elna-container {
-        display: flex;
-        margin: 5px;
-    }
-    
-    .elna-column1 {
-        flex: 30%;
-        padding-top: 10px;
-        padding-left: 25px;
-        height: auto;
-    }
-    
-    .elna-column2 {
-        flex: 70%;
-        padding-right: 15px;
-        padding-top: 30px;
-        height: auto;
-    }
-    
-    .elna-image {
-        max-width: 100%;
-        padding: 25px;
-    }
-    
+    /*FAQS Layout*/
+
     .faqs-layout {
         width: auto;
         margin: auto;
@@ -534,6 +527,7 @@ footer {
     .faqs-section {
         padding-top: 25px;
     }
+    /*Book Now*/
     form {
         width: auto;
     }
@@ -551,29 +545,6 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
-    }
-    .elna-container {
-        display: flex;
-        margin: 5px;
-    }
-    
-    .elna-column1 {
-        flex: 30%;
-        padding-top: 10px;
-        padding-left: 10px;
-        height: auto;
-    }
-    
-    .elna-column2 {
-        flex: 70%;
-        padding-top: 30px;
-        padding-left: 10px;
-        height: auto;
-    }
-    
-    .elna-image {
-        max-width: 100%;
-        padding: 25px;
     }
 
     .faqs-layout {
