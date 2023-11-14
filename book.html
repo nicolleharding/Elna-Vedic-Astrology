@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,8 +16,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!--Style CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <!--Header- the Header HTML and CSS is borrowed from the Love Running website found here: https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.4-creating-the-header-->
     <header>
         <a href="index.html">
@@ -24,26 +26,26 @@
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
-    <!--Nav- the Nav HTML and CSS is borrowed from the Love Running website found here: https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu-->
-    <nav>
-        <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="faqs.html" >Faqs</a></li>
-            <li><a href="book.html" class="active">Book</a></li>
-        </ul>
-    </nav>
+        <!--Nav- the Nav HTML and CSS is borrowed from the Love Running website found here: https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu-->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faqs.html">Faqs</a></li>
+                <li><a href="book.html" class="active">Book</a></li>
+            </ul>
+        </nav>
     </header>
     <!--Main- The form HTML and CSS is borrowed from the Coffee Warehouse House project: https://learn.codeinstitute.net/sandbox/api/challenges/63fde490b18a250038e91e0c/files/index.html-->
     <main>
         <section>
-            <div id="background-book-page" alt="Background image of stars in the night sky.">
-            <form action="https//:formdump.codeinstitute.net" method="POST">
-                <fieldset>
-                    <h2 class="consultation-heading">Book a consultation</h2>
+            <div id="background-book-page">
+                <form action="https://formdump.codeinstitute.net" method="POST">
+                    <fieldset>
+                        <h2 class="consultation-heading">Book a consultation</h2>
                         <div class="flex gap-20">
                             <div>
                                 <label for="name-field" class="block-label bold">Full Name</label>
-                                <input id="name-field" type="text" name="full_name" placeholder="Your Name" required>
+                                <input id="name-field" type="text" name="full-name" placeholder="Your Name" required>
                             </div>
                             <div>
                                 <label for="email-field" class="block-label bold">Email</label>
@@ -56,64 +58,67 @@
                                 <input id="mobile-field" type="number" name="mobile-field" placeholder="Country + Number" required>
                             </div>
                         </div>
-                            <div>
+                        <div>
                             <label for="message-field" class="block-label bold">Any specific issues to be focussed on, or points you would like to ask?</label>
                             <textarea id="message-field" name="message"></textarea>
-                            </div>
+                        </div>
                     </fieldset>
-                <input type="submit" class="submit-button" value="Book Now">
-                <div>
-                    <h3 class="consultation-heading-h3">What You Will Need to Share for a Consultation</h3>
+                    <input type="submit" class="submit-button" value="Book Now">
+                    <div>
+                        <h3 class="consultation-heading-h3">What You Will Need to Share for a Consultation</h3>
                         <ol id="book-now-reading">
                             <li>Your date of birth</li>
                             <li>Your location of birth (city / long and lat)</li>
                             <li>Your time of birth <em>(how accurate is your birth time?)</em></li>
                             <li>Preference of TEAMS or ZOOM, as consultations are virtual</li>
-                            </ol>
-                </div>
-                <div>
-                    <h3 class="consultation-heading-h3">What to expect from a consultation</h3>
-                    <p class="bold">Life is a journey full of questions. The map of the heavens at your time of birth shows unique patterns in your chart that shape your destiny. To know yourself helps you to gain a better perspective of your life and assist in planning your future when you are at a crossroad in life .....</p>
-                    <p>Most questions revolve around Money, Health, Love and Work and any one of the following consultations may give you the answers you are looking for:</p>
-                        <ul style="padding-left: 20px;">
-                            <li><strong style="color: #542875;">In depth Life Analysis</strong> includes a personality profile, looking at your strengths and weaknesses. How and when to make the best choices and decisions. This consultation aims to help you to make you understand yourself better. To plan a better future for all areas of your life, by taking into account planetary aspects, cycles and transits.
-                                <p><em>2 hours</em></p></li>
-                            <li><strong style="color: #542875;">Natal Chart Analysis</strong> includes a brief personality profile, an overview of relationships, career, health family and finance. By analysing patterns in your chart and reviewing planetary transits, trends can be seen that will shape your destiny so that predictions and advice can be given to assist in immediate and long term planning.
-                                <p><em>1 hours</em></p></li>
-                            <li><strong style="color: #542875;">Annual birth chart Analysis –</strong><em>Tithī</em>Praveṣa looks at what life has in stall for you for the coming year, starting from your birthday. Focus is placed on the ‘Five Limbs’ (Pancānga) of time in your Vedic Chart, highlighting what will influence you in the coming year. Guiding you on how to make the most of beneficial periods and how to deal with difficult periods.
-                                <p><em>1 hours</em></p></li>
-                            <li><strong style="color: #542875;">Specific area of Life</strong>includes interpretation of trends for the future in a particular area of life such as: relationships and compatibility, career, finance, health, relocation, Muhūrta -choosing a good time to do something important, etc. Focus in this reading will be only in one area of life, or on one specific issue.
-                                <p><em>1/2 hours</em></p></li>
-                        </ul>
-                    <p><strong>Follow up Consultation:</strong></p>
-                        <ul>
-                            <li><strong style="color: #542875;">Correcting birth time -</strong>if the correct time of your birth on the day you are born is unknown, it will be necessary to provide details and dates of important events in your life to assist in choosing a correct time.</li>
-                        </ul>
-                    <p style="text-align: center; color:#542875;"><em>DISCLAIMER: The consultation will be given to
-                        you in good faith and trust it will be helpful to you. It is personal to you and not applicable to anyone else.
-                        Use of its contents is entirely at your own risk and upon payment you agree to indemnify the author and agree
-                        that you will not hold the author liable for any loss, or claim that may arise out of the use of the
-                        consultation.</em></p>
+                        </ol>
                     </div>
-            </form>
-        </div>
+                    <div>
+                        <h3 class="consultation-heading-h3">What to expect from a consultation</h3>
+                        <p class="bold">Life is a journey full of questions. The map of the heavens at your time of birth shows unique patterns in your chart that shape your destiny. To know yourself helps you to gain a better perspective of your life and assist in planning your future when you are at a crossroad in life .....</p>
+                        <p>Most questions revolve around Money, Health, Love and Work and any one of the following consultations may give you the answers you are looking for:</p>
+                        <ul class="consultation-list">
+                            <li><strong>In depth Life Analysis</strong> includes a personality profile, looking at your strengths and weaknesses. How and when to make the best choices and decisions. This consultation aims to help you to make you understand yourself better. To plan a better future for all areas of your life, by taking into account planetary aspects, cycles and transits.
+                                <p><em>2 hours</em></p>
+                            </li>
+                            <li><strong>Natal Chart Analysis</strong> includes a brief personality profile, an overview of relationships, career, health family and finance. By analysing patterns in your chart and reviewing planetary transits, trends can be seen that will shape your destiny so that predictions and advice can be given to assist in immediate and long term planning.
+                                <p><em>1 hours</em></p>
+                            </li>
+                            <li><strong>Annual birth chart Analysis –</strong><em>Tithī</em>Praveṣa looks at what life has in stall for you for the coming year, starting from your birthday. Focus is placed on the ‘Five Limbs’ (Pancānga) of time in your Vedic Chart, highlighting what will influence you in the coming year. Guiding you on how to make the most of beneficial periods and how to deal with difficult periods.
+                                <p><em>1 hours</em></p>
+                            </li>
+                            <li><strong>Specific area of Life</strong> includes interpretation of trends for the future in a particular area of life such as: relationships and compatibility, career, finance, health, relocation, Muhūrta -choosing a good time to do something important, etc. Focus in this reading will be only in one area of life, or on one specific issue.
+                                <p><em>1/2 hours</em></p>
+                            </li>
+                            <li><strong>Follow up Consultation:</strong></li>
+                            <li><strong>Correcting birth time,</strong> if the correct time of your birth on the day you are born is unknown, it will be necessary to provide details and dates of important events in your life to assist in choosing a correct time.</li>
+                        </ul>
+                        <p><em class="consultation-disclaimer">DISCLAIMER: The consultation will be given to
+                                you in good faith and trust it will be helpful to you. It is personal to you and not applicable to anyone else.
+                                Use of its contents is entirely at your own risk and upon payment you agree to indemnify the author and agree
+                                that you will not hold the author liable for any loss, or claim that may arise out of the use of the
+                                consultation.</em></p>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <!--Footer- Some of the Footer HTML and CSS is borrowed from the Love Running and Coffee Warehouse House project, however this has been adapted to fit this website.-->
     <footer>
         <ul id="social-logos">
             <li>
-                <a href="mailto:hello@elnavedic.com" target="_blank" rel="nooperner" aria-label="Email Elna directly (opens in a new tab)"><i class="fa-regular fa-envelope" style="color: #ffffff;"></i></a>
+                <a href="mailto:hello@elnavedic.com" target="_blank" rel="nooperner" aria-label="Email Elna directly (opens in a new tab)"><i class="fa-regular fa-envelope"></i></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/vedicastrologysouthafrica" target="_blank" rel="nooperner" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                <a href="https://www.facebook.com/vedicastrologysouthafrica" target="_blank" rel="nooperner" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/elna.mckenzie/" target="_blank" rel="nooperner" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a href="https://www.instagram.com/elna.mckenzie/" target="_blank" rel="nooperner" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/d666f2aa40.js" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>

@@ -22,18 +22,27 @@ body {
     margin-right: auto;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+h1 {
     color: #ffffff;
 }
 
 h2 {
+    color: #303A97;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+h4 {
     font-family: 'Hind Madurai', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #303A97;
+    color: #ffffff;
     padding-top: 10px;
 }
 
@@ -65,7 +74,7 @@ header a {
 
 /* Nav */
 #menu {
-    font-size: 110%;
+    font-size: 1.1rem;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -135,7 +144,7 @@ main {
     font-size: 2rem;
     text-align: center;
     font-family: 'Athiti', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: none;
     text-wrap: balance;
     margin-bottom: 30px;
@@ -146,7 +155,7 @@ main {
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 30px;
 }
 
@@ -156,11 +165,15 @@ a.hero-button {
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
     font-family: 'Hind Madurai', sans-serif;
     align-items: center;
     text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    text-align: center;
 }
 
 /* Page section Index*/
@@ -171,7 +184,6 @@ a.hero-button {
 
 .elna-image {
     max-width: 100%;
-    max-height: auto;
     padding: 25px;
 }
 
@@ -184,6 +196,10 @@ a.hero-button {
 .about-elna p {
     color: #2f4f4f;
     padding-left: 10px;
+}
+
+.jyotish {
+    color: #542875;
 }
 
 /* Page section FAQs*/
@@ -227,14 +243,14 @@ a.hero-button {
     border-radius: 10px;
 }
 
-.accordion__question p {
+.accordion-question p {
     margin: 5px;
     padding: 0;
     font-family: 'Athiti', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.accordion__answer p {
+.accordion-answer p {
     margin: 5px;
     padding: 10px;
     font-size: large;
@@ -248,17 +264,17 @@ a.hero-button {
     cursor: pointer;
 }
 
-.accordion__answer {
+.accordion-answer {
     display: none;
 }
 
-.accordion.active .accordion__answer {
+.accordion.active .accordion-answer {
     display: block;
 }
 
 /* Faqs Festivals and Fasts Section */
 
-#festivals_fasts {
+#festivals-fasts {
     text-align: center;
     padding-top: 10px;
 }
@@ -346,7 +362,7 @@ textarea {
     display: block;
     color: #542875;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 15px;
+    font-size: 0.94rem;
     padding: 15px 0px 5px 0px;
 }
 
@@ -354,7 +370,7 @@ textarea {
     display: block;
     background-color: #542875;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 15px;
+    font-size: 0.94rem;
     margin-left: 15px;
     color: white;
     border: none;
@@ -370,12 +386,28 @@ textarea {
     display: 0;
 }
 
+.consultation-list {
+    padding-left: 20px;
+}
+
+.consultation-list {
+    padding-left: 20px;
+}
+
+.consultation-list li strong {
+    color: #542875;
+}
+
+.consultation-disclaimer {
+    color: #542875;
+    text-align: center;
+}
 /* Footer */
 
 footer {
     background-color: #303A97;
     color: #ffffff;
-    font-size: 120%;
+    font-size: 1.2rem;
     text-align: center;
     letter-spacing: 2px;
 }
@@ -391,13 +423,21 @@ footer {
 }
 
 #social-logos i {
-    font-size: 200%;
+    font-size: 2rem;
     padding: 5%;
+}
+
+.fa-brands {
+    color: #ffffff;
+}
+
+.fa-regular {
+    color: #ffffff;
 }
 
 /* Sizing of logo */
 #logo {
-    font-size: 280%;
+    font-size: 1.75rem;
     line-height: 75px;
     margin: 0 0.5rem;
 }
@@ -483,7 +523,6 @@ footer {
     
     .elna-image {
         max-width: 100%;
-        max-height: auto;
         padding: 25px;
     }
     
@@ -537,12 +576,11 @@ footer {
     
     .elna-image {
         max-width: 100%;
-        max-height: auto;
         padding: 25px;
     }
 
     .faqs-layout {
-        width: 1000px;
+        max-width: 1000px;
         margin: auto;
         padding: 10px;
     }

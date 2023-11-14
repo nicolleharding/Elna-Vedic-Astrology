@@ -6,32 +6,18 @@
 https://nicolleharding.github.io/Elna-Vedic-Astrology/ 
 
 ## Table of Contents
-- [Strategy & Features] (#Strategy & Features)
-  - [Wireframe] (#Wireframe)
-  - [Existing Features] (#Existing Features)
-  - [Checklist of Things to Fix] (#Checklist of Things to Fix)
-  - [Features Left to Implement] (#Features Left to Implement)
-- [Testing] (#Testing)
-  - [Testing Itemised] (#Testing Itemised)
-  - [Validator Testing] (#Validator Testing)
-  - [Unfixed Bugs] (#Unfixed Bugs)
-- [Deployment] (#Deployment)
-  - [Adding and Committing Files] (#Adding and Committing Files)
-  - [File Paths] (#File Paths)
-  - [Deployment Process]
-  - [Live link]
-- [Credits] (#Credits)
-  - [Content]
-  - [Design]
-  - [Media]
-  - [Code]
-- [Acknowledgements]
+- [Strategy & Features](#strategy-and-features)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Acknowledgements](#acknowledgements)
 
 # Strategy and Features
 
 Elna McKenzie is a Vedic Astrologer with 15+ years experience. This website aims to share more information about Vedic Astrology, the differences between Western and Vedic Astrology, answer any questions a possible client may have and entice people to book a consultation reading with Elna.
 
 **Goal**
+
 The goal of this website is to allow users to understand more about Vedic Astrology, learn about Elna's experience and credentials, have their concerns addressed through FAQs and easily book a consultation. 
 
 The goal of the website is for Elna, is to share information about Vedic Astrology and the lifestyle, whilst increasing interest from possible customers allowing them to enquire about a consultation. 
@@ -44,12 +30,15 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 ## Wireframe
 
 **Index Page**
+
 ![Screenshot 2023-11-13 at 19 42 23](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/43534010-a9b0-416e-8cce-b0c05667e2ff)
 
 **FAQs Page**
+
 ![Screenshot 2023-11-13 at 19 44 49](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/fa651c94-28b2-49ce-9502-d3c755aeea59)
 
 **Book Page**
+
 ![Screenshot 2023-11-13 at 19 46 02](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/185eb101-52e8-4f44-8db0-3e0ec7301bd6)
 
 - Removed Gallery page due to time contraints and assignment requirements.
@@ -178,7 +167,10 @@ Need to make everything responsive. - done
 
 **Book Page : Section**
 - Changed image to a WebP image. 
-- Fixed font-size in input field. 
+- Fixed font-size in input field.
+- Validated required email in "Email" field.
+- Validated required numbers in "Number" field.
+- 
 
 **All**
   - Adjusted body to accommodate extremely large screen sizes over 1600px. 
