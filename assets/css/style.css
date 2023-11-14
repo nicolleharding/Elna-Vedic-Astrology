@@ -147,8 +147,8 @@ main {
     font-size: 1.125rem;
     text-transform: none;
     margin-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #hero-services {
@@ -488,7 +488,7 @@ footer {
     }
 
     .nav-toggle-label {
-        display: none
+        display: none;
     }
 
     #hero1 {
@@ -497,6 +497,11 @@ footer {
 
     #hero-text {
         padding-top: 75px;
+    }
+
+    #hero-text-body {
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     .elna-container {
