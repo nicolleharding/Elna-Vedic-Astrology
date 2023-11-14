@@ -184,7 +184,9 @@ a.hero-button {
 
 .elna-image {
     max-width: 100%;
+    max-height: 100%;
     padding: 25px;
+    float: left;
 }
 
 .why-vedic {
@@ -528,6 +530,8 @@ footer {
     .elna-image {
         max-width: 100%;
         padding: 25px;
+        float: none;
+        max-height: 100%;
     }
     
     .faqs-layout {
@@ -577,11 +581,6 @@ footer {
         padding-top: 30px;
         padding-left: 10px;
         height: auto;
-    }
-    
-    .elna-image {
-        max-width: 100%;
-        padding: 25px;
     }
 
     .faqs-layout {
