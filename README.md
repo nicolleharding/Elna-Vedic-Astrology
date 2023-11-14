@@ -143,9 +143,9 @@ Need to make everything responsive. - done
 - Convert Faqs to a table which has drop-downs instead of all the copy visible.- done
 
 **Book Page : Section**
-- Change size of submit button.
-- Change size of text boxes to be responsive.
-- Change form submit to Code Institute deposit. 
+- Change size of submit button. - done
+- Change size of text boxes to be responsive. - done
+- Change form submit to Code Institute deposit. - done
 - Layout is boring need to look at imagery. - done
 - Add CSS to form layout. - done
 - Fix background image. - done
@@ -200,7 +200,7 @@ Need to make everything responsive. - done
 
 **All**
   - Adjusted body to accommodate extremely large screen sizes over 1600px. 
-  - Removed use of <br>.
+  - Removed use of < br >.
   - Fixed syntax to go from h1 > h2 > h3.
 
 ## Validator Testing
@@ -218,7 +218,7 @@ HTML Errors Fixed
 **CSS**
   - No errors were found when passing through the official (Jigsaw) validator
 
-  CSS Errors Fixed
+CSS Errors Fixed
   - Hero-image needed a height and width. 
 
 **Lighthouse**
