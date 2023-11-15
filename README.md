@@ -213,17 +213,21 @@ HTML Errors Fixed
   - Fixed various elements with trailing slash. 
   - Remove duplicate class for "bold".
   - Fixed values for attributes on form collection for Book page. 
-  - No errors returned on FAQS Page on first check with W3C. 
+  - No errors returned on FAQS Page on first check with W3C.
+
+<img width="1764" alt="Screenshot 2023-11-14 at 19 31 59" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/a0e1e599-d92d-4672-ba00-8a64f82303c6">
 
 **CSS**
   - No errors were found when passing through the official (Jigsaw) validator
 
 CSS Errors Fixed
-  - Hero-image needed a height and width. 
+  - Hero-image needed a height and width.
+
+<img width="1767" alt="Screenshot 2023-11-14 at 19 32 08" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/99fa5de0-1c41-4e3e-ae8c-5470cd5d0248">
 
 **Lighthouse**
 
-
+<img width="692" alt="Screenshot 2023-11-15 at 10 14 08" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/7149bd5f-98f6-47ba-a545-85207791756f">
 
 ## Unfixed Bugs
 
