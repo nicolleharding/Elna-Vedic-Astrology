@@ -1,6 +1,6 @@
 # Vedic Astrology
 
-![Screenshot 2023-11-09 at 15 50 27](https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/e138be6f-5460-4e09-890c-9cb5a3e30eb2)
+<img width="948" alt="Screenshot of responsive website" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/9ebe2e66-602d-4539-af12-4e62a2356ba5">
 
 ## Live Website
 https://nicolleharding.github.io/Elna-Vedic-Astrology/ 
