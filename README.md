@@ -78,13 +78,13 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 - The section includes a descriptive write up of Elna's experience, how she started with Vedic Astrology and her study experience. Many people may not know what Vedic Astrology is.
 - To highlight to the user why they would want Vedic Astrology over Western Astrology, I have included a Why Vedic Astrology section on this page.
 
-<img width="896" alt="Screenshot 2023-11-13 at 22 32 43" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/260970a7-25d7-479f-9c17-6501e0679416">
+<img width="896" alt="Image of Index Page" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/260970a7-25d7-479f-9c17-6501e0679416">
 
 **FAQs**
 - Centered at the top of the page is an accordion FAQs section. The questions are designed to be clickable exposing the answers. A hand appears on the scroller to ensure the user knows to click on the question box. This creates a better user experience as it is more visually appealing.
 - At the bottom of the FAQs page is an image of the zodiac on a black star sky. Overlayed on this image is the upcoming festivals and fasts for the next quarter.
 
-<img width="576" alt="Screenshot 2023-11-13 at 19 51 37" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/a44a06ac-ecf7-4df7-8766-59c2c0321af9">
+<img width="576" alt="Image of FAQs Page" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/a44a06ac-ecf7-4df7-8766-59c2c0321af9">
 
 **Book**
 - Set on a background of stars in the galaxy, the "Book a Consultation" form includes collection fields of name, email, contact number, consult date and a message box. The email box is set to only accept email details. All boxes are required other than the message box.
@@ -92,7 +92,7 @@ The goal of the website is for Elna, is to share information about Vedic Astrolo
 - Under the boxes is a "Book Now" button, which sends the data collected directly to Elna via email.
 - Included in the form is what a user will need to share for a consultation and what to expect. The for main points of the "What to Expect" content are in bold and purple to visually catch the users eye and highlight these points.
 
-<img width="1790" alt="Screenshot 2023-11-13 at 22 37 36" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/7f11a59d-86a1-4f34-af1c-0332b58ea27a">
+<img width="1790" alt="Image of Book Page" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/7f11a59d-86a1-4f34-af1c-0332b58ea27a">
 
 **Font and Color Pallet**
 - Logo (h1) Font:
@@ -215,7 +215,7 @@ HTML Errors Fixed
   - Fixed values for attributes on form collection for Book page. 
   - No errors returned on FAQS Page on first check with W3C.
 
-<img width="1764" alt="Screenshot 2023-11-14 at 19 31 59" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/a0e1e599-d92d-4672-ba00-8a64f82303c6">
+<img width="1764" alt="screenshot of W3C HTML validator test result" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/a0e1e599-d92d-4672-ba00-8a64f82303c6">
 
 **CSS**
   - No errors were found when passing through the official (Jigsaw) validator
@@ -223,11 +223,11 @@ HTML Errors Fixed
 CSS Errors Fixed
   - Hero-image needed a height and width.
 
-<img width="1767" alt="Screenshot 2023-11-14 at 19 32 08" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/99fa5de0-1c41-4e3e-ae8c-5470cd5d0248">
+<img width="1767" alt="screenshot of W3C CSS validator test result" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/99fa5de0-1c41-4e3e-ae8c-5470cd5d0248">
 
 **Lighthouse**
 
-<img width="692" alt="Screenshot 2023-11-15 at 10 14 08" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/7149bd5f-98f6-47ba-a545-85207791756f">
+<img width="692" alt="screenshot of Lighthouse validator test result" src="https://github.com/nicolleharding/Elna-Vedic-Astrology/assets/146173473/7149bd5f-98f6-47ba-a545-85207791756f">
 
 ## Unfixed Bugs
 
